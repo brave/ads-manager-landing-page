@@ -9,6 +9,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self'; 
+  script-src 'self';
+  style-src 'self';
+  img-src 'self' data: https://brave.com https://*.brave.com; 
+  child-src 'none';
+  frame-src 'self';
+  font-src data: 'self';
+  ">
+
   <title>Brave Ads | Advertise with Brave</title>
   <meta name="description"
     content="Get your product in the eyes of valuable audiences, with the world's first global ad platform built on privacy.">
@@ -29,13 +40,13 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="manifest" href="site.webmanifest">
   <!-- <link rel="stylesheet" href="fonts.css"> -->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/navbar.css">
   <link href="https://fonts.googleapis.com/css?family=Muli:200,300,600|Poppins:500,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="animate.css">
-  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -228,16 +239,11 @@
 
   </div>
 
-  <script src="js.js" async defer></script>
-  <script src="drift-chatbox.js"></script>
-  <script src="simpleLightbox.min.js"></script>
-  <link rel="stylesheet" href="simpleLightbox.min.css">
-  <script>
-    var SimpleLightbox = window.SimpleLightbox;
-    new SimpleLightbox({
-      elements: '#adFormatImages a'
-    });
-  </script>
+  <script src="js/js.js" async defer></script>
+  <script src="js/drift-chatbox.js" async defer></script>
+  <script src="js/simpleLightbox.min.js" async defer></script>
+  <link rel="stylesheet" href="css/simpleLightbox.min.css">
+  <script src="js/initializeLightbox.js" async defer></script>
 </body>
 
 </html>
