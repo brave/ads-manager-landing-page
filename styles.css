@@ -1,0 +1,529 @@
+/* Global */
+
+:root {
+  --nav-bar-height: 50px;
+  /* --brave-orange: #fb542b; */
+  --brave-orange: #fe5025;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body { 
+  margin: 0;
+  font-family: 'Muli', sans-serif; 
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  color:rgb(120, 121, 138);
+  line-height: 2rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #373843;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  color: #373843;
+}
+
+a { 
+  text-decoration: none;
+  color: var(--brave-orange);
+  cursor: pointer !important;
+}
+
+a:hover {
+  color: #802baa;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+
+small {
+  display: block;
+  color: rgb(120, 121, 138);
+}
+
+button {
+  cursor: pointer !important;
+}
+
+h1.sectionTitle {
+  margin-bottom: -.75rem;
+}
+
+#navBarStartNow {
+  display: none;
+}
+
+#navBarStartNow-text {
+  display: inline-block;
+}
+
+#splash h1 {
+  color: white;
+  margin-top: calc(var(--nav-bar-height) + 1.2rem);
+}
+
+#splash .callToAction p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#splash .callToAction p.watchVideo {
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+#splash .callToAction p.watchVideo>img {
+  margin-bottom: -.35rem;
+  margin-left: .35rem;
+}
+
+
+.basicButton {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--brave-orange);
+  padding: .5em;
+  padding-right: 1.6em;
+  padding-left: 1.6em;
+  border-radius: 30px;
+  border: none;
+}
+
+.basicButton:hover {
+  color: var(--brave-orange);
+  background: none;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 2pt var(--brave-orange);
+  transition: 0.125s;
+}
+
+.basicButtonInverse {
+  color: var(--brave-orange);
+  background: none;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 2pt var(--brave-orange);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .5em;
+  padding-right: 1.6em;
+  padding-left: 1.6em;
+  border: none;
+}
+
+.basicButtonInverse:hover {
+  color: white;
+  background-color: var(--brave-orange);
+  border-radius: 30px;
+  transition: 0.125s;
+}
+
+
+/* === Sections === */
+
+#splash .contentWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  margin: auto;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#splash .contentWrapper > div:nth-child(2) {
+  padding-top: 6rem;
+  padding-right: 3rem;
+} 
+
+/* Splash */
+#splash {
+  position: relative;
+  min-height: 500px;
+  background: url("images/hero-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#phone {
+  text-align: center;
+  justify-self: end;
+  margin-right: 4rem;
+  width: 300px;
+  height: 494.938px;
+  position: relative;
+  bottom: -130px;
+  z-index: 0;
+  background-image: url('images/phoneBody.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.androidNotification {
+  background: white;
+  max-width: 275px; /*216px*/
+  height: 75px;
+  border-radius: 3px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: .55rem;
+  padding-top: .85rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  cursor: crosshair;
+}
+
+.androidNotification-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: .7rem;
+  text-align: left;
+  line-height: .95rem;
+  margin: .1rem;
+  color: black;
+}
+
+p.androidNotification-text-cta {
+  color: gray;
+  margin-top: 3px;
+}
+
+div.androidNotification-text {
+  padding-left: .65rem;
+}
+
+.androidNotification:hover {
+  transform: scale(1.25);
+  transition: 0.2s;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.125);
+}
+
+.androidNotification:active /* mobile touch */ {
+  transform: scale(1.25);
+  transition: 0.2s;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.125);
+}
+
+.androidNotification > div {
+  display: inline-block;
+}
+
+.androidNotification-icon {
+  position: relative;
+  display: inline-block;
+  margin-bottom: -1.1rem;
+  margin-left: .2rem;
+}
+
+/* AdFormats */
+#adFormats {
+  max-width: 760px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  z-index: 1;
+  background-color: white;
+  position: relative;
+}
+
+#adFormats h1 {
+  margin-bottom: -.5rem;
+}
+
+#adFormatImages {
+  display: grid;
+  grid-template-areas:
+  'PC NTPSI'
+  'macOS NTPSI';
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+#adFormatImages img:hover {
+  transition: 0.2s;
+  transform: scale(1.075);
+  cursor: pointer !important;
+}
+
+/* Naming grid-template-area elements */
+#windowsNotification {
+   grid-area: PC; 
+   text-align: right;
+   height: 120px;
+}
+
+#macOSNotification {
+   grid-area: macOS; 
+   text-align: right; 
+   height: 60.1px;
+   margin-right: -2px;
+  }
+
+#macOSNotification>img {
+  text-shadow: 0px 1px 5.88px 1.12px rgba(0, 0, 0, 0.18);
+}
+
+
+#NTPSponsoredImage {
+   grid-area: NTPSI; 
+   text-align: left;
+   height: 200px;
+}
+
+#macOSNotification small {
+  padding-right: 4rem;
+  margin-top: 1rem;
+}
+
+#NTPSponsoredImage small {
+  padding-left: 3.25rem;
+  margin-top: 1rem;
+}
+
+#NTPSponsoredImage img {
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.125);
+}
+
+/* Benefits */
+#benefits {
+  padding: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.benefitPoint h2 {
+  display: inline-block;
+}
+
+.benefitPoint .icon {
+  vertical-align: middle;
+  margin-top: -.2rem;
+  margin-right: .85rem;
+}
+
+#benefitsWrapper {
+  max-width: 768px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 0rem;
+  text-align: left;
+  word-wrap: break-word;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+} 
+
+#benefitsWrapper>div:nth-child(1) {
+  margin-bottom: 1.25rem;
+}
+
+#integrityPoint {
+  width: 30px;
+  margin-right: 0.6rem;
+}
+
+#empoweredPoint {
+  width: 36px;
+  margin-right: 0.3rem;
+}
+
+/* #promoVideo {
+  margin-top: -4rem;
+} */
+
+.informationAssets {
+  display: grid;
+  grid-template-columns: auto; /* switch to 3 when other assets available */
+  grid-column-gap: 1.25rem;
+  justify-items: center;
+  max-width: 768px;
+  margin: auto;
+}
+
+.informationButton {
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: .85rem;
+  color: gray;
+  padding: .65rem 1.25rem .65rem 1.25rem;
+  border: 1px rgb(230, 230, 230) solid;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: .75rem .75rem .75rem .75rem;
+  vertical-align: middle;
+  width: 16rem;
+  background: white;
+  display: inline-block;
+  height: 4rem;
+}
+
+.informationButton:hover {
+  transform: scale(1.04);
+  transition: 0.35s;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.125);
+  border: none;
+}
+
+.informationButton > img {
+  margin-right: .75rem;
+  opacity: .5;
+  margin-bottom: -.2rem;
+}
+
+
+/* Testimonials */
+#testimonialsBG {
+  height: 380px;
+  background-image: url("images/cubic-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*boostBusiness*/
+#boostBusiness {
+  max-width: 700px;
+  margin: auto;
+  padding: 1.5rem
+}
+
+#boostBusiness h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+#boostBusiness > small /* Min spend notice */ {
+  line-height: 1.45rem;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  color: rgb(241, 106, 68);
+  text-align: left;
+  padding: 0 1.25rem 0 1.25rem;
+  background: #fff4f1;
+  border: 1px solid #ffe9e2;
+  border-radius: 6px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Brand logos */
+.quoteBox img {
+  opacity: .6;
+  margin: 1.5rem 1rem 1rem 1rem;
+  vertical-align: middle;
+}
+
+#testimonials {
+  top: -300px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -260px;
+}
+
+.quoteBox {
+  max-width: 700px;
+  background: rgb(255,255,255);
+  top: -300px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 23.28px 0.72px rgba(0, 0, 0, 0.11);
+  padding: 2.5rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.quoteBoxWrapper {
+  margin: 1.15rem;
+  margin-bottom: .75rem;
+}
+
+.testimonialText {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color:rgb(120, 121, 138);
+  padding: .5rem 1rem 1rem 1rem;
+  font-weight: 200;
+}
+
+.testimonialPerson {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: .35rem;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  color: #373843;
+}
+
+#braveRewardsAds {
+  max-width: 460px;
+  width: 85%;
+  margin-top: .5rem;
+}
+
+#finalStartNow {
+  margin-top: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+iframe#startNowForm {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(189, 189, 189);
+  background: #2c2c35;
+  padding: 1.75rem;
+  padding-bottom: 1.5rem;
+  font-size: .75rem;
+}
+
+footer a {
+  color: #a2a2a2;
+}
+
+footer a:hover {
+  color: #a2a2a2;
+}
+
+footer img {
+  margin-top: -.25rem;
+}
+
+footer img:hover {
+  opacity: 0.7;
+  transition: 0.15s;
+}
+
+footer .footerListItems span {
+  margin-right: 1rem;
+}

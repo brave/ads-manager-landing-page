@@ -1,1 +1,0 @@
-# ads-manager-landing-page

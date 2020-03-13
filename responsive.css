@@ -1,0 +1,253 @@
+@media only screen and (max-width: 738px) {
+
+  #splash .contentWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #benefitsWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  /* Flip column order */ 
+  #splash .contentWrapper > div:nth-child(1) {
+    order: 2;
+    justify-self: center;
+    margin-top: -15rem;
+  }
+
+  #splash .contentWrapper > div:nth-child(2) {
+    order: 1;
+    margin: auto;
+    padding: 15%;
+    padding-bottom: 9%;
+    box-sizing: border-box;
+  }
+  /* End flip column order */
+
+  #phone {
+    margin: 0;
+    justify-self: center;
+    bottom: -11.5rem;
+  }
+
+  .benefitPoint p {
+    margin-top: 0;
+    padding-left: 2.75rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+    #adFormatImages {
+      display: block;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+
+    #adFormatImages div {
+      text-align: center;
+      padding: 0;
+      height: 100%;
+    }
+
+    #adFormatImages div img {
+      text-align: center;
+      width: 100%;
+      max-width: 350px;
+      height: initial;
+      margin-top: 5px;
+    }
+
+    #adFormatImages div>small {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      margin-top: .75rem;
+      margin-bottom: 1rem;
+    }
+
+    #macOSNotification>img {
+      display: none;
+    }
+
+    #macOSNotification {
+      margin-bottom: 1.5rem;
+    }
+
+    .informationAssets {
+      grid-template-columns: 1fr;
+      margin-top: 1.5rem;
+    }
+
+    .informationAssets>button:nth-child(1) {
+      justify-self: initial;
+    }
+    
+    .informationAssets>button:nth-child(3) {
+      justify-self: initial;
+    }
+
+    #boostBusiness /* Min spend notice */ {
+      padding-top: .5rem;
+    }
+
+    .brandLogos>img:nth-child(4), .brandLogos>img:nth-child(5) /* Hide some brand logos for space */ {
+      display: none;
+    }
+}
+
+
+  @media only screen and (max-width: 656px) {
+    #splash .contentWrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    footer { 
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 1.75rem;
+      text-align: center;
+    }
+  }
+
+  
+
+  /* Mobile L  425px */
+  @media only screen and (max-width: 425px) {
+    #splash h1 {
+      font-size: 2.6rem;
+    }
+
+    .callToAction {
+      padding: 1rem;
+    }
+    .callToAction button {
+      margin-top: .5rem;
+    }
+
+    section#benefits {
+      padding: 2rem;
+    }
+
+    .quoteBox {
+      margin-bottom: 2.5rem;
+    }
+
+    #boostBusiness {
+      padding: 1.95rem
+    }
+
+    #boostBusiness h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  /* Mobile M 375px */
+  @media only screen and (max-width: 375px) {
+
+    #splash h1 {
+      font-size: 2rem;
+    }
+
+    #splash .contentWrapper > div:nth-child(2) {
+      padding: 19%;
+      padding-right: 16%;
+      padding-bottom: 12%;
+      box-sizing: border-box;
+    }
+    
+    .callToAction button {
+      margin-top: .5rem;
+    }
+
+    #boostBusiness h1 {
+      font-size: 1.95rem;
+    }
+
+    #integrityPoint {
+      width: 26px;
+      margin-right: 0.85rem;
+    }
+
+    #integrityPoint ~ h2 {
+      font-size: 1.3rem;
+    }
+
+    #empoweredPoint {
+      width: 30px;
+      margin-right: 0.5rem;
+    }
+
+    .quoteBox {
+      margin-bottom: 2.5rem;
+      padding: 2rem;
+    }
+
+    .testimonialText {
+      font-size: 1rem;
+    }
+
+
+  }
+
+  /* Mobile S 320px */
+  @media only screen and (max-width: 320px) {
+
+    #splash h1 {
+      font-size: 1.85rem;
+    }
+
+    #boostBusiness h1 { 
+      font-size: 1.75rem;
+    }
+
+    .benefitPoint .icon {
+      display: none;
+    }
+
+    .benefitPoint h2 {
+      font-size: 1.25rem;
+    }
+
+    .benefitPoint p {
+      padding-left: 0;
+    }
+
+    #benefits {
+      padding-right: 1.75rem;
+      padding-left: 1.75rem;
+      padding-bottom: 2rem;
+    }
+
+    #benefitsWrapper {
+      margin-bottom: 2rem;
+    }
+
+    .quoteBox {
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .testimonialText {
+      font-size: .95rem;
+      line-height: 1.85rem;
+      padding: 0;
+    }
+
+
+    .testimonialPerson {
+      margin-top: 1.25rem;
+    }
+
+    footer {
+      padding: 1rem;
+      padding-top: 1.5rem;
+    }
+
+    footer .footerListItems span:last-child {
+      margin-right: 0;
+    }
+  }

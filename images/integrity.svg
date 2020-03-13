@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="126px" viewBox="0 0 118 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>form</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,2.50961209 C0,1.1235916 1.12759257,0 2.50830042,0 L101.038869,0 C102.424165,0 103.54717,1.12667358 103.54717,2.50961209 L103.54717,109.490388 C103.54717,110.876408 102.419577,112 101.038869,112 L2.50830042,112 C1.12300435,112 0,110.873326 0,109.490388 L0,2.50961209 Z" id="path-1"></path>
+        <filter x="-11.6%" y="-8.0%" width="123.2%" height="121.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.152941176   0 0 0 0 0.180392157   0 0 0 0 0.250980392  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="35.1918566%" y1="49.5336698%" x2="146.327287%" y2="51.6131807%" id="linearGradient-3">
+            <stop stop-color="#392DD1" offset="0%"></stop>
+            <stop stop-color="#FF4343" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rewards-Simple-Copy" transform="translate(-376.000000, -58.000000)">
+            <g id="form" transform="translate(383.000000, 62.000000)">
+                <g id="Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill-opacity="0.4" fill="#7433A6" fill-rule="nonzero" opacity="0.461263021" x="21.1320755" y="78.1886792" width="45.7997097" height="4" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="19.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <rect id="Rectangle" fill-opacity="0.4" fill="#7433A6" fill-rule="nonzero" opacity="0.335170201" x="21.1320755" y="21.1320755" width="50.777939" height="4" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill="#F2EEF9" fill-rule="nonzero" x="21.7650108" y="37.6140674" width="69.4249857" height="1.73412941" rx="0.867064704"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="35.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <polyline id="Path-2" stroke="#6431B1" stroke-width="1.26587059" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="10.9521045 37.7740299 12.6920367 39 15.9303338 34"></polyline>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="63.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill="#F2EEF9" fill-rule="nonzero" x="21.7650108" y="66.1423693" width="69.4249857" height="1.73412941" rx="0.867064704"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="92.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill="#F2EEF9" fill-rule="nonzero" x="21.7650108" y="93.6140674" width="69.4249857" height="2.9605445" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="48.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <polyline id="Path-2" stroke="#6431B1" stroke-width="1.26587059" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="10.9521045 50.7740299 12.6920367 52 15.9303338 47"></polyline>
+                <rect id="Rectangle" fill-opacity="0.4" fill="#7433A6" fill-rule="nonzero" opacity="0.461263021" x="21.1320755" y="49.6603774" width="45.7997097" height="4" rx="1.26587059"></rect>
+                <rect id="Rectangle" stroke="#F2EEF9" stroke-width="1.26587059" fill-rule="nonzero" x="9.59374807" y="77.6329353" width="5.70365045" height="5.73412941" rx="1.26587059"></rect>
+                <polyline id="Path-2" stroke="#6431B1" stroke-width="1.26587059" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="10.9521045 79.7740299 12.6920367 81 15.9303338 76"></polyline>
+                <polygon id="Background" fill="url(#linearGradient-3)" points="0 0 103.54717 0 103.54717 10 0 10"></polygon>
+                <ellipse id="Oval" fill="#FFFFFF" cx="6.47169811" cy="5.5" rx="1.4934688" ry="1.5"></ellipse>
+                <ellipse id="Oval-Copy" fill="#FFFFFF" cx="11.4499274" cy="5.5" rx="1.4934688" ry="1.5"></ellipse>
+                <ellipse id="Oval-Copy-2" fill="#FFFFFF" cx="16.4281567" cy="5.5" rx="1.4934688" ry="1.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
