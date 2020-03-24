@@ -434,9 +434,10 @@ div.androidNotification-text {
 
 /* Brand logos */
 .quoteBox img {
-  opacity: .6;
+  opacity: .68;
   margin: 1.5rem 1rem 1rem 1rem;
   vertical-align: middle;
+  filter: grayscale(1);
 }
 
 #testimonials {
