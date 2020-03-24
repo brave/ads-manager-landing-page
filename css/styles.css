@@ -371,7 +371,8 @@ div.androidNotification-text {
   font-size: .85rem;
   color: gray;
   padding: .65rem 1.25rem .65rem 1.25rem;
-  border: 1px rgb(230, 230, 230) solid;
+  /* border: 1px rgb(230, 230, 230) solid; */
+  border: none;
   border-radius: .5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -381,12 +382,13 @@ div.androidNotification-text {
   background: white;
   display: inline-block;
   height: 4rem;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.05);
 }
 
 .informationButton:hover {
-  transform: scale(1.04);
-  transition: 0.35s;
-  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.125);
+  transform: scale(1.025);
+  transition: 0.1s;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.1);
   border: none;
 }
 
