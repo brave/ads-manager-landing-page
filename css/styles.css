@@ -293,12 +293,12 @@ div.androidNotification-text {
 }
 
 #macOSNotification small {
-  padding-right: 4rem;
+  padding-right: 1.65rem;
   margin-top: 1rem;
 }
 
 #NTPSponsoredImage small {
-  padding-left: 3.25rem;
+  padding-left: 1.7rem;
   margin-top: 1rem;
 }
 
