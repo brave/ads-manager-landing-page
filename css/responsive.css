@@ -193,6 +193,17 @@
 
   }
 
+  /* Mobile S 340px */
+  @media only screen and (max-width: 340px) {
+    .tooltip {
+      left: -50%;
+    }
+
+    .tooltip::after {
+      left: 50%;
+    }
+  }
+
   /* Mobile S 320px */
   @media only screen and (max-width: 320px) {
 
