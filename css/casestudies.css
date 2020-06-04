@@ -1,5 +1,51 @@
+#casestudies-splash {
+  position: relative;
+  min-height: 500px;
+  background: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 8rem;
+}
+
+#casestudies-splash .sectionTitle h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+#casestudies-splash .sectionTitle p {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+}
+
+.casestudies-contentWrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
 #casestudies {
   background: rgb(242, 242, 242);
+}
+
+.casestudies-sectionTitle {
+  color: white;
+}
+
+.bigstats {
+  margin-top: 3rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bigstats p {
+  color: white;
+  font-size: 1.25rem;
+  margin: 0;
 }
 
 #casestudies h1 {
@@ -7,7 +53,7 @@
 }
 
 #casestudies-wrapper {
-  width: 1080px;
+  width: 960px;
   margin: auto;
   padding-top: 2rem;
 }
@@ -24,7 +70,7 @@
 .case-study-card-top img {
   margin: 0;
   border-radius: 6px 6px 0 0;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .case-study-card-bottom {
