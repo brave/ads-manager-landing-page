@@ -1,7 +1,6 @@
 #casestudies-splash {
   position: relative;
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
   url('../images/casestudies-stars2.jpg');
   background-size: cover;
   background-position: center;
@@ -44,7 +43,7 @@
   margin-top: 3rem;
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 7.5rem;
+  font-size: 7.25rem;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -63,6 +62,14 @@
 #casestudies h2 {
   margin: 0;
   display: inline-block;
+  color: white;
+  font-weight: 600;
+  font-size: .8rem;
+  padding: .3rem .4rem .3em .75rem;
+  border: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .section-title-formatted {
@@ -83,7 +90,7 @@
 #casestudies-wrapper {
   width: 960px;
   margin: auto;
-  padding-top: 2rem;
+  padding-top: .1rem;
 }
 
 .card-container{
@@ -109,14 +116,30 @@
   max-height: 200px;
   width: 300px;
   filter: brightness(110%);
+  box-shadow: 0px 5px 10px 5px rgba(34,56,101,0.09);
+}
+
+.case-study-card-top img:hover {
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .case-study-card-bottom {
-  background: white;
-  padding: 1.5rem;
+  /* background: linear-gradient(to right, rgb(113, 45, 153) 0%, rgb(229, 66, 169) 100%); */
+  background: #838399;
+  padding-top: .55rem;
+  padding-bottom: .1rem;
+  padding-right: .25rem;
   text-align: left;
   box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
   border-radius: 0 0 5px 5px;
+  text-align: right;
+}
+
+.case-study-card-bottom:hover {
+  background: linear-gradient(to right, rgb(113, 45, 153) 0%, rgb(229, 66, 169) 100%);
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .case-study-card-bottom p {
@@ -125,7 +148,7 @@
 }
 
 .case-study-card-bottom button {
-  display: inline;
+  display: none;
 }
 
 .casestudies-readmore {
@@ -151,8 +174,12 @@
 }
 
 #casestudies-page #testimonialsBG {
-  background-image: url("../images/casestudies-stars3.jpg");
-  background-position: center;
+  /* background-image: url('../images/oculus.jpg'); */
+  background-image:   linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
+  url('../images/casestudies-stars2.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Responsivenesss */
