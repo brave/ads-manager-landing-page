@@ -150,6 +150,13 @@
   height: 350px;
 }
 
+#casestudies-page #testimonialsBG {
+  background-image: url("../images/casestudies-stars3.jpg");
+  background-position: center;
+}
+
+/* Responsivenesss */
+
 @media(max-width: 800px){
   .card-container{
       grid-template-columns: 1fr 1fr;
