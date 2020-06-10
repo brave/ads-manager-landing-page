@@ -1,10 +1,12 @@
 #casestudies-splash {
   position: relative;
-  background: url("../images/casestudies-stars2.jpg");
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
+  url('../images/casestudies-stars2.jpg');
   background-size: cover;
   background-position: center;
   padding-top: 7.5rem;
-  min-height: 420px;
+  min-height: 460px;
 }
 
 #casestudies-splash .sectionTitle h1 {
@@ -25,7 +27,7 @@
 }
 
 #casestudies {
-  background: rgb(245, 245, 245);
+  background: rgb(245,245,245);
   padding-bottom: 2rem;
 }
 
@@ -42,7 +44,7 @@
   margin-top: 3rem;
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 6.5rem;
+  font-size: 7.5rem;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,6 +58,26 @@
 
 #casestudies h1 {
   margin: 0;
+}
+
+#casestudies h2 {
+  margin: 0;
+  display: inline-block;
+}
+
+.section-title-formatted {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.section-title-formatted h3 {
+  color: rgb(174, 174, 174);
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  font-size: 1.4rem;
+  margin: 0 0 .5rem 0;
 }
 
 #casestudies-wrapper {
@@ -83,7 +105,7 @@
 
 .case-study-card-top img {
   margin: 0;
-  border-radius: 3px 3px 0 0;
+  border-radius: 5px 5px 0 0;
   max-height: 200px;
   width: 300px;
   filter: brightness(110%);
@@ -94,7 +116,7 @@
   padding: 1.5rem;
   text-align: left;
   box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 5px 5px;
 }
 
 .case-study-card-bottom p {
@@ -102,9 +124,13 @@
   margin: 0;
 }
 
+.case-study-card-bottom button {
+  display: inline;
+}
+
 .casestudies-readmore {
   color: white;
-  background: #672497;
+  background: #4b4b59;
   font-weight: 600;
   font-size: .8rem;
   padding: .3rem .4rem .3em .75rem;
