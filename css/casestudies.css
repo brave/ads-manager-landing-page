@@ -26,7 +26,8 @@
 }
 
 #casestudies {
-  background: rgb(245,245,245);
+  background: linear-gradient(135deg, #cacfd291, transparent);
+  /* background: rgb(245,245,245); */
   padding-bottom: 2rem;
 }
 
@@ -64,7 +65,7 @@
   display: inline-block;
   color: white;
   font-weight: 600;
-  font-size: .8rem;
+  font-size: .725rem;
   padding: .3rem .4rem .3em .75rem;
   border: none;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -91,6 +92,7 @@
   width: 960px;
   margin: auto;
   padding-top: .1rem;
+  margin-top: -5rem;
 }
 
 .card-container{
