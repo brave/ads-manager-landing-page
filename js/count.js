@@ -1,6 +1,35 @@
+var imgs = document.images,
+    len = imgs.length,
+    counter = 0;
+
+[].forEach.call( imgs, function( img ) {
+    if(img.complete)
+      incrementCounter();
+    else
+      img.addEventListener( 'load', incrementCounter, false );
+} );
+
+function incrementCounter() {
+    counter++;
+    if ( counter === len ) {
+      console.log('All images loaded!');
+      console.log('Start count');
+      //window.onload = function () { requestAnimationFrame(step); }
+      window.onload = function () {
+        requestAnimationFrame(step)
+        requestAnimationFrame(step2)
+        requestAnimationFrame(step3)
+        el.innerHTML = '90';
+      } 
+    }
+}
+
+/* Count Logic */
+
 let start // set on the first step to the timestamp provided
 const el = document.getElementById('count1') // get the element
-const final = parseInt(el.textContent, 10) // parse out the final number
+const final = 90;
+//const final = parseInt(el.textContent, 10) // parse out the final number
 const duration = 1340 // duration in ms
 const step = ts => {
   if (!start) {
@@ -14,11 +43,15 @@ const step = ts => {
     // if we're not 100% complete, request another animation frame
     requestAnimationFrame(step) 
   }
+  //setTimeout(() => el.innerHTML = '90', 1800)
 }
 
 // start the animation
-requestAnimationFrame(step)
-setTimeout(() => el.innerHTML = '90', 1800);
+/* window.onload = function () {
+  requestAnimationFrame(step)
+  requestAnimationFrame(step2)
+  requestAnimationFrame(step3)
+} */
 
 let start2 // set on the first step to the timestamp provided
 const el2 = document.getElementById('count2') // get the element
@@ -38,9 +71,6 @@ const step2 = ts => {
   }
 }
 
-// start the animation
-requestAnimationFrame(step2)
-
 let start3 // set on the first step to the timestamp provided
 const el3 = document.getElementById('count3') // get the element
 const final3 = parseInt(el3.textContent, 10) // parse out the final number
@@ -59,5 +89,7 @@ const step3 = ts => {
   }
 }
 
-// start the animation
-requestAnimationFrame(step3)
+//JS enabled
+  document.querySelectorAll('.startNowLink').forEach(function (a) {
+    a.removeAttribute('href');
+  });
