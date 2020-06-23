@@ -1,0 +1,19 @@
+#case-splash {
+  position: relative;
+  background-color: #FB542B;
+  background-position: center;
+  padding-top: var(--nav-bar-height);
+  min-height: 460px;
+}
+
+#case-splash :nth-child(2) img {
+  opacity: 60%;
+}
+
+.case-contentWrapper {
+  display: grid;
+  max-width: 960px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
