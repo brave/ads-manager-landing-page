@@ -1,19 +1,42 @@
+/* Common case studies CSS */
+
 #case-splash {
   position: relative;
-  background-color: #FB542B;
-  background-position: center;
-  padding-top: var(--nav-bar-height);
+  /* padding-top: var(--nav-bar-height); */
   min-height: 460px;
 }
 
-#case-splash :nth-child(2) img {
-  opacity: 60%;
-}
-
 .case-contentWrapper {
-  display: grid;
   max-width: 960px;
   margin: auto;
+}
+
+section.case-firstQuote {
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+}
+
+section.case-content {
+  max-width: 960px;
+  margin: auto;
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+section.case-content .BraveAdsPerformanceBox {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 9px 1px rgb(223, 223, 223);
+  padding: 2rem;
+  margin: 3rem;
+}
+
+section.case-secondQuote {
+  background: #353DAB;
+}
+
 
