@@ -20,16 +20,21 @@ hr {
 }
 
 blockquote {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 2.5rem;
+  font-weight: lighter;
 }
 
+blockquote strong {
+  color: #1E2029;
+} 
+
 section.case-firstQuote {
-  max-width: 900px;
+  max-width: 780px;
   margin: auto;
   margin-top: 2rem;
   text-align: center;
+  color: #84889C;
 }
 
 section.case-content {
