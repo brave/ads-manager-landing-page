@@ -37,6 +37,10 @@ h2 {
   color: #373843;
 }
 
+li {
+  list-style: none;
+}
+
 a { 
   text-decoration: none;
   color: var(--brave-orange);

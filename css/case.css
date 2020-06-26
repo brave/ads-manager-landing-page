@@ -11,32 +11,87 @@
   margin: auto;
 }
 
-section.case-firstQuote {
-  max-width: 900px;
-  margin: auto;
+hr {
+  max-width: 960px;
+
+}
+
+blockquote {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
   line-height: 2.5rem;
+}
+
+section.case-firstQuote {
+  max-width: 900px;
+  margin: auto;
   margin-top: 2rem;
 }
 
 section.case-content {
   max-width: 960px;
   margin: auto;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+section.case-content .case-description {
+  padding-right: 2rem;
 }
 
 section.case-content .BraveAdsPerformanceBox {
   background: white;
-  border-radius: 16px;
-  box-shadow: 0px 0px 9px 1px rgb(223, 223, 223);
-  padding: 2rem;
-  margin: 3rem;
+  border-radius: 6px;
+  box-shadow: 0px 0px 9px 1px rgba(223, 223, 223, 0.65);
+  padding: 3rem;
+}
+
+section.case-content .BraveAdsPerformanceBox  ul {
+  padding: 0;
+}
+
+section.case-content .BraveAdsPerformanceBox  li img {
+  margin-bottom: -28px;
+  margin-right: 1rem;
+}
+
+section.case-content h2 {
+  display: inline;
+}
+
+section.case-content .BraveAdsPerformanceBox li .stat-title { 
+  color: #FB542B;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+section.case-content .BraveAdsPerformanceBox li .stat-value { 
+  color: black;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: .2rem 0 1.5rem 0;
+  padding-left: 3.5rem;
 }
 
 section.case-secondQuote {
   background: #353DAB;
+  margin-top: 2rem;
 }
+
+section.case-secondQuote blockquote {
+  background: #353DAB;
+  max-width: 960px;
+  margin: auto;
+  color: white;
+  padding: 3rem 0 3rem 0;
+}
+
+section.case-whois {
+  max-width: 960px;
+  margin: auto;
+}
+
 
 
