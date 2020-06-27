@@ -1,7 +1,7 @@
 /* Ad-hoc CSS for Culprit Case Study */
 
 #case-splash {
-  background: linear-gradient(to bottom, #ff57227a 65%, #fb542bb8 100%), url(../images/culprit-splash.png);
+  background: linear-gradient(to bottom, #ff572226 65%, #fb542b00 100%), url(../images/culprit-splash.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 75%;
