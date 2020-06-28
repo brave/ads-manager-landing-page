@@ -159,7 +159,7 @@ section.case-whois {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 808px) {
   section.case-content {
     grid-template-columns: 1fr;
     padding: 2.5rem;
@@ -170,6 +170,17 @@ section.case-whois {
     padding-left: 2rem;
     padding-right: 2rem;
     margin: auto;
+  }
+
+  .case-content .BraveAdsPerformanceBox {
+    padding: 2.25rem;
+    padding-right: 1.75rem;
+    max-width: 420px;
+    margin: auto;
+  }
+
+   .BraveAdsPerformanceBox ul {
+    margin-top: 2rem;
   }
 }
 
