@@ -163,7 +163,7 @@ section.case-whois {
     grid-template-columns: 1fr;
     padding: 2.5rem;
     padding-top: 1rem;
-    margin-top: 0rem;
+    margin-top: 0;
   }
 
   .case-contentWrapper {
@@ -186,6 +186,10 @@ section.case-whois {
 
    .BraveAdsPerformanceBox ul {
     margin-top: 2rem;
+  }
+
+  section.case-secondQuote {
+    margin-top: -7.5rem;
   }
 }
 
