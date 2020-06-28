@@ -9,10 +9,6 @@
 }
 
 @media (max-width: 620px) {
-  section.case-content {
-    grid-template-columns: 1fr !important;
-    padding: 2rem;
-  }
 
   #case-splash {
     background-size: cover;

@@ -44,7 +44,7 @@ section.case-content {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5rem;
+  grid-column-gap: 4rem;
 }
 
 section.case-content .case-description p {
@@ -174,10 +174,8 @@ section.case-whois {
   }
 
   section.case-content #BraveAdsPerformanceBox {
-    padding: 2.25rem;
-    padding-right: 1.75rem;
-    margin: auto;
     order: 2;
+    margin-top: 2rem;
   }
 
   section.case-content #case-description {
@@ -189,10 +187,44 @@ section.case-whois {
   }
 
   section.case-secondQuote {
-    margin-top: -7.5rem;
+    margin-top: -5.5rem;
   }
 }
 
+@media (max-width: 425px) {
+  section#case-splash .BraveAdsPerformanceBox {
+    width: auto;
+  }
+
+  section#case-splash .BraveAdsPerformanceBox li .stat-title {
+    font-size: .75rem;
+  }
+
+  section.case-content .case-description { 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  section.case-content {
+    padding: 1rem;
+  }
+
+  section.case-content .BraveAdsPerformanceBox {
+    padding: 3rem;
+  }
+
+  section.case-content .BraveAdsPerformanceBox li .stat-title {
+    font-size: .75rem;
+  }
+
+  section.case-content .BraveAdsPerformanceBox h2 {
+    font-size: 1rem;
+  }
+
+  #BraveAdsPerformanceBox-BAT {
+    display: none;
+  }
+}
 
 
 
