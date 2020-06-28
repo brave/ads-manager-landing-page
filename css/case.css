@@ -38,18 +38,6 @@ section.case-firstQuote {
   color: #84889C;
 }
 
-section.case-secondQuote .quoteBoxWrapper {
-  display: relative;
-  z-index: 5;
-  max-width: 700px;
-  margin: auto;
-}
-
-section.case-secondQuote .quoteBox {
-  padding: 2rem;
-  margin: -3rem;
-}
-
 section.case-content {
   max-width: 960px;
   margin: auto;
@@ -114,21 +102,39 @@ margin-bottom: 2.25rem;
 }
 
 section.case-secondQuote {
-  background: linear-gradient(150deg, #359cd7 10%, #7d6efb 100%);;
+  background: linear-gradient(135deg, #FF5722 10%, #aa68d2 100%);
   margin-top: 5rem;
 }
 
 section.case-secondQuote blockquote {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
   color: white;
-  padding: 6rem 0 6rem 0;
+  padding: 5rem 2rem 5rem 2rem;
   text-align: center;
+  font-size: 1.25em;
+  line-height: 2.25rem;
+}
+
+section.case-secondQuote blockquote h1 {
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+}
+
+section.case-secondQuote blockquote small {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1rem;
 }
 
 section.case-whois {
   max-width: 960px;
   margin: auto;
+  padding: 3rem 2rem 3rem 2rem;
+  margin-bottom: 5rem;
 }
 
 
