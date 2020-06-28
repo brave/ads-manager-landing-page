@@ -5,6 +5,7 @@
   display: relative;
   /* padding-top: var(--nav-bar-height); */
   height: 460px;
+  background-color: #fe5025;
 }
 
 #case-splash h1 {
@@ -59,6 +60,8 @@ section.case-content .case-description p {
   box-shadow: 0px 0px 20px 4px rgba(223, 223, 223, 0.35);
   padding: 3.5rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 section#case-splash .BraveAdsPerformanceBox {
@@ -127,6 +130,8 @@ section.case-secondQuote blockquote small {
   text-align: center;
   line-height: 2rem;
   font-size: 1rem;
+  max-width: 70%;
+  margin: auto;
 }
 
 section.case-whois {
@@ -158,7 +163,7 @@ section.case-whois {
   }
 }
 
-@media (max-width: 808px) {
+@media (max-width: 809px) {
   section.case-content {
     grid-template-columns: 1fr;
     padding: 2.5rem;
@@ -223,6 +228,17 @@ section.case-whois {
 
   #BraveAdsPerformanceBox-BAT {
     display: none;
+  }
+
+  section.case-secondQuote blockquote h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  section.case-secondQuote blockquote {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    padding-bottom: 3rem;
   }
 }
 

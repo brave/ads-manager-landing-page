@@ -1,0 +1,45 @@
+/* Ad-hoc CSS for Culprit Case Study */
+
+#case-splash {
+  background: linear-gradient(to bottom, #b33cff6e 50%, #2180f3a8 100%), url(../images/case-intel-gamer-days-splash-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 42%;
+  background-color: #6232ca;
+}
+
+#splash-img {
+  height: 240px;
+  position: relative;
+  bottom: 275px;
+  left: 65%;
+  z-index: 0;
+}
+
+@media (max-width: 965px) {
+
+  #splash-img {
+    height: 200px;
+    left: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  #splash-img {
+    height: 185px;
+    bottom: 245px;
+    left: 60%;
+  }
+}
+
+@media (max-width: 675px) {
+
+  #case-splash {
+    background-size: cover;
+    background-position: top center;
+  }
+
+  #splash-img {
+    display: none;
+  }
+}
