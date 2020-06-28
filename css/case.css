@@ -102,7 +102,6 @@ margin-bottom: 2.25rem;
 }
 
 section.case-secondQuote {
-  background: linear-gradient(135deg, #FF5722 10%, #aa68d2 100%);
   margin-top: 5rem;
 }
 
@@ -131,10 +130,18 @@ section.case-secondQuote blockquote small {
 }
 
 section.case-whois {
+  padding: 3rem 2rem 3rem 2rem;
+  background: #F9F9FF;
+}
+
+.case-basic-wrapper {
   max-width: 960px;
   margin: auto;
-  padding: 3rem 2rem 3rem 2rem;
-  margin-bottom: 5rem;
+}
+
+#boostBusiness {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 

@@ -416,7 +416,8 @@ div.androidNotification-text {
 #boostBusiness {
   max-width: 700px;
   margin: auto;
-  padding: 1.5rem
+  padding: 1.5rem;
+  text-align: center;
 }
 
 #boostBusiness h1 {
