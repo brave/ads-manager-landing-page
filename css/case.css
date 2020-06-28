@@ -44,7 +44,7 @@ section.case-content {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-column-gap: 5rem;
 }
 
 section.case-content .case-description p {
@@ -155,7 +155,6 @@ section.case-whois {
 
   section.case-content {
     padding: 2rem;
-    grid-gap: 3.75rem;
   }
 }
 
@@ -163,6 +162,8 @@ section.case-whois {
   section.case-content {
     grid-template-columns: 1fr;
     padding: 2.5rem;
+    padding-top: 1rem;
+    margin-top: 0rem;
   }
 
   .case-contentWrapper {
@@ -172,11 +173,15 @@ section.case-whois {
     margin: auto;
   }
 
-  .case-content .BraveAdsPerformanceBox {
+  section.case-content #BraveAdsPerformanceBox {
     padding: 2.25rem;
     padding-right: 1.75rem;
-    max-width: 420px;
     margin: auto;
+    order: 2;
+  }
+
+  section.case-content #case-description {
+    order: 1;
   }
 
    .BraveAdsPerformanceBox ul {
