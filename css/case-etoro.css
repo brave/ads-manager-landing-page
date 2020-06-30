@@ -8,6 +8,10 @@
   background-color: #6232ca;
 }
 
+section.case-content {
+  padding-top: 3rem;
+}
+
 #splash-img {
   width: 350px;
   position: relative;
