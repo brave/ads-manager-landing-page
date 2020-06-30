@@ -40,12 +40,15 @@ section.case-firstQuote {
 }
 
 section.case-content {
+  background: white;
   max-width: 960px;
   margin: auto;
-  margin-top: 4rem;
+  padding-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 4rem;
+  position: relative;
+  z-index: 1;
 }
 
 section.case-content .case-description p {
@@ -62,6 +65,7 @@ section.case-content .case-description p {
   padding-bottom: 2rem;
   position: relative;
   z-index: 1;
+  margin-bottom: -6.5rem;
 }
 
 section#case-splash .BraveAdsPerformanceBox {
@@ -160,6 +164,7 @@ section.case-whois {
 
   section.case-content {
     padding: 2rem;
+    padding-top: 1rem;
   }
 }
 
@@ -192,7 +197,11 @@ section.case-whois {
   }
 
   section.case-secondQuote {
-    margin-top: -5.5rem;
+    margin-top: -2.5rem;
+  }
+
+  section.case-secondQuote blockquote {
+    padding-top: 10rem;
   }
 }
 
