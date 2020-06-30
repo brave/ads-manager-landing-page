@@ -357,19 +357,6 @@ div.androidNotification-text {
   margin-right: 0.3rem;
 }
 
-/* #promoVideo {
-  margin-top: -4rem;
-} */
-
-.informationAssets {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1.25rem;
-  justify-items: center;
-  max-width: 768px;
-  margin: auto;
-}
-
 .informationButton {
   font-family: 'Muli', sans-serif;
   font-weight: 600;
