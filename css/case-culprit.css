@@ -8,6 +8,10 @@
   background-color: #FB542B;
 }
 
+section.case-content {
+  padding-top: 3rem;
+}
+
 @media (max-width: 620px) {
          
   #case-splash {
