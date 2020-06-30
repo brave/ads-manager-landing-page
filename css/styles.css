@@ -363,7 +363,7 @@ div.androidNotification-text {
 
 .informationAssets {
   display: grid;
-  grid-template-columns: auto; /* switch to 3 when other assets available */
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1.25rem;
   justify-items: center;
   max-width: 768px;

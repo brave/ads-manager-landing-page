@@ -89,7 +89,6 @@
 }
 
 #casestudies-wrapper {
-  width: 960px;
   margin: auto;
   padding-top: .1rem;
   margin-top: -5rem;
@@ -99,6 +98,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
+  max-width: 960px;
+  grid-row-gap: 1rem;
+  grid-gap: 0rem;
 }
 
 .case-study-card {
@@ -118,7 +120,7 @@
   max-height: 200px;
   width: 300px;
   filter: brightness(110%);
-  box-shadow: 0px 5px 10px 5px rgba(34,56,101,0.09);
+  box-shadow: 0px 5px 10px 1px rgba(34, 56, 101, 0.07)
 }
 
 .case-study-card-top img:hover {
@@ -136,6 +138,7 @@
   box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
   border-radius: 0 0 5px 5px;
   text-align: right;
+  display: none;
 }
 
 .case-study-card-bottom:hover {
