@@ -237,12 +237,16 @@
   #casestudies-splash .sectionTitle h1 {
     font-size: 2.3rem;
   }
+
+  .bigstats {
+    font-size: 5.5rem;
+    margin-top: 2.85rem;
+  }
 }
 
 @media(max-width: 530px){
   .bigstats {
     font-size: 3.75rem;
-    grid-template-columns: 1fr;
   }
 }
 
@@ -255,7 +259,11 @@
   #casestudies-splash .sectionTitle p {
     font-size: 1.25rem;
   }
-  
+
+  .bigstats {
+    grid-template-columns: 1fr;
+    margin-top: 1.5rem;
+  }
 }
 
 
@@ -267,3 +275,4 @@
   .bigstats {
     font-size: 2.9rem;
   }
+}
