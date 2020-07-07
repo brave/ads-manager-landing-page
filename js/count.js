@@ -3,23 +3,27 @@ var imgs = document.images,
     counter = 0;
 
 [].forEach.call( imgs, function( img ) {
-    if(img.complete)
-      incrementCounter();
-    else
-      img.addEventListener( 'load', incrementCounter, false );
-} );
+  if (img.complete) {
+    incrementCounter();
+  } else {
+    img.addEventListener( 'load', incrementCounter, false );
+  }
+});
+
+function forceStat() {
+  document.getElementById('count1').innerHTML = '90';
+  document.getElementById('count2').innerHTML = '9';
+  document.getElementById('count3').innerHTML = '3';
+}
 
 function incrementCounter() {
     counter++;
     if ( counter === len ) {
-      console.log('All images loaded!');
-      console.log('Start count');
-      //window.onload = function () { requestAnimationFrame(step); }
       window.onload = function () {
-        requestAnimationFrame(step)
-        requestAnimationFrame(step2)
-        requestAnimationFrame(step3)
-        el.innerHTML = '90';
+        requestAnimationFrame(step);
+        requestAnimationFrame(step2);
+        requestAnimationFrame(step3);
+        setTimeout(forceStat, 10000);
       } 
     }
 }
@@ -88,8 +92,3 @@ const step3 = ts => {
     requestAnimationFrame(step3) 
   }
 }
-
-//JS enabled
-  document.querySelectorAll('.startNowLink').forEach(function (a) {
-    a.removeAttribute('href');
-  });

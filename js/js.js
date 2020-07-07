@@ -31,3 +31,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+//JS enabled
+document.querySelectorAll('.startNowLink').forEach(function (a) {
+  a.removeAttribute('href');
+});
