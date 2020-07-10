@@ -30,12 +30,39 @@ svg.separator {
   color: white;
   text-transform: uppercase;
   font-size: 1rem;
+  opacity: 64%;
 }
 
 .case-contentWrapper {
   max-width: 960px;
   margin: auto;
-  padding-top: 90px;
+  padding-top: 120px;
+}
+
+section.case-firstQuote p {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+  color: #1E2029;
+  font-weight: 400;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.case-firstQuote p.quotePerson {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #5E6175;
+}
+
+section.case-firstQuote p.quotePerson strong {
+  color: #1E2029;
+}
+
+section.case-firstQuote {
+  text-align: center;
 }
 
 hr {
@@ -43,13 +70,6 @@ hr {
   border: 0;
   height: 1px;
   background: rgb(225, 225, 225);
-}
-
-section.case-firstQuote {
-  max-width: 900px;
-  margin: auto;
-  margin-top: 2rem;
-  color: #84889C;
 }
 
 section.case-content {
@@ -82,11 +102,24 @@ section.case-content .case-description p {
 }
 
 section#case-splash .BraveAdsPerformanceBox {
+  background-color: rgba(0,0,0,.4);
   width: 15rem;
   border-radius: 16px;
   box-shadow: none;
   padding: .01rem 1.5rem .01rem 1.5rem;
   margin-top: 1.75rem;
+}
+
+section#case-splash .BraveAdsPerformanceBox span.stat-title {
+  color: white;
+}
+
+section#case-splash .BraveAdsPerformanceBox p.stat-value {
+  color: white;
+}
+
+section#case-splash .BraveAdsPerformanceBox li img {
+  filter: brightness(100);
 }
 
 .BraveAdsPerformanceBox  ul {

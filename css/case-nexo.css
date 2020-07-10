@@ -1,5 +1,13 @@
 /* Ad-hoc CSS for Culprit Case Study */
 
 #case-splash {
-  background-color: #2853C2;
+  background: url(../images/nexo-bg.jpg);
+  background-size: cover;
+}
+
+#splash-img {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  right: 20%;
 }
