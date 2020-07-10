@@ -1,36 +1,5 @@
 /* Ad-hoc CSS for Culprit Case Study */
 
 #case-splash {
-  background: linear-gradient(128deg,#2854c3fa,#13a0d3eb);
-  background-size: cover;
-  background-position-x: 70%;
-  background-position-y: 55px;
-  background-color: #2853c3;
-  background-position: bottom;
-  z-index: 0;
-}
-
-#splash-img {
-  max-height: 520px;
-  z-index: 0;
-  position: relative;
-  bottom: 250px;
-  left: 52%;
-  z-index: 0;
-}
-
-section.case-content {
-  padding-top: 3rem;
-}
-
-@media (max-width: 768px) {
-  #splash-img {
-    left: 40%;
-  }
-}
-
-@media (max-width: 375px) {
-  #splash-img {
-    left: -40px;
-  }
+  background-color: #2853C2;
 }
