@@ -401,7 +401,6 @@ div.androidNotification-text {
 
 /*boostBusiness*/
 #boostBusiness {
-  max-width: 700px;
   margin: auto;
   padding: 1.5rem;
   text-align: center;
@@ -414,18 +413,18 @@ div.androidNotification-text {
 
 #boostBusiness > small /* Min spend notice */ {
   line-height: 1.45rem;
+  margin: auto;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
-  /* color: rgb(241, 106, 68); */
   color: #f47436;
   text-align: left;
   padding: 0 1.25rem 0 1.25rem;
   background: #fff1eb;
-  /* border: 1px solid #ffe9e2; */
   border-radius: 6px;
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  max-width: 700px;
 }
 
 /* Tooltip */
