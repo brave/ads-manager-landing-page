@@ -1,6 +1,14 @@
 /* Common case studies CSS */
 /* Apple gradient linear-gradient(150deg, #359cd7 10%, #7d6efb 100%) */
 
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
 .site-wrapper {
   max-width: 1440px;
   margin: auto;
@@ -10,7 +18,7 @@
 #case-splash {
   /* padding-top: var(--nav-bar-height); */
   position: relative;
-  height: 700px;
+  height: 650px;
 }
 
 svg.separator {
@@ -24,6 +32,7 @@ svg.separator {
 #case-splash h1 {
   color: white;
   margin: 0;
+  font-size: 3rem;
 }
 
 #case-splash h2 {
@@ -48,7 +57,6 @@ section.case-firstQuote p {
   line-height: 2.75rem;
   color: #1E2029;
   font-weight: 400;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 section.case-firstQuote p.quotePerson {
@@ -85,9 +93,7 @@ section.case-content {
 }
 
 section.case-content .case-description p {
-  line-height: 1.85rem;
-  widows: 6;
-  orphans: 6;
+  line-height: 2rem;
 }
 
 .BraveAdsPerformanceBox {
@@ -99,15 +105,17 @@ section.case-content .case-description p {
   position: relative;
   z-index: 1;
   margin-bottom: -6.5rem;
+  font-weight: 500;
 }
 
 section#case-splash .BraveAdsPerformanceBox {
   background-color: rgba(0,0,0,.4);
-  width: 15rem;
+  width: 18rem;
   border-radius: 16px;
   box-shadow: none;
-  padding: .01rem 1.5rem .01rem 1.5rem;
+  padding: .01rem 1.5rem .1rem 1.5rem;
   margin-top: 1.75rem;
+  font-weight: 500;
 }
 
 section#case-splash .BraveAdsPerformanceBox span.stat-title {
@@ -116,6 +124,8 @@ section#case-splash .BraveAdsPerformanceBox span.stat-title {
 
 section#case-splash .BraveAdsPerformanceBox p.stat-value {
   color: white;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 
 section#case-splash .BraveAdsPerformanceBox li img {
@@ -142,13 +152,11 @@ margin-bottom: 2.25rem;
 
 .BraveAdsPerformanceBox li .stat-title { 
   color: #FB542B;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 .BraveAdsPerformanceBox li .stat-value { 
   color: #373843;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   margin: .2rem 0 1.5rem 0;
   padding-left: 3.5rem;
@@ -163,14 +171,13 @@ section.case-secondQuote blockquote {
   max-width: 800px;
   margin: auto;
   color: white;
-  padding: 5rem 2rem 8rem 2rem;
+  padding: 5rem 2rem 8.25rem 2rem;
   font-size: 1rem;
   line-height: 2.25rem;
 }
 
 section.case-secondQuote blockquote p {
   color: #9da5d7;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   line-height: 2.75rem;
   font-size: 1.5rem;
 }
@@ -181,7 +188,6 @@ section.case-secondQuote blockquote strong {
 
 
 section.case-secondQuote blockquote small {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #9da5d7;
   text-align: left;
   line-height: 2rem;
@@ -192,9 +198,7 @@ section.case-secondQuote blockquote small {
 }
 
 section.case-whois {
-  padding: 3rem 2rem 3rem 2rem;
-  background: #F9F9FF;
-  text-align: center;
+  padding: 3rem 2rem 6rem 2rem;
 }
 
 .case-basic-wrapper {
@@ -206,6 +210,11 @@ section.case-whois {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background: #E5E7F4;
+}
+
+#browsers-lockup {
+  margin-top: -130px;
+  margin-bottom: -100px;
 }
 
 /* Responsiveness */
