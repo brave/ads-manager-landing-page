@@ -117,7 +117,6 @@ section.case-content .case-description p {
   border-radius: 16px;
   box-shadow: 0px 0px 20px 4px rgba(223, 223, 223, 0.35);
   padding: 3.5rem;
-  padding-bottom: 2rem;
   position: relative;
   z-index: 1;
   margin-bottom: -6.5rem;
@@ -346,6 +345,11 @@ section.case-whois h1 {
   section.case-secondQuote blockquote {
     font-size: 1.25rem;
     line-height: 2.25rem;
+  }
+
+  section.case-secondQuote blockquote small {
+    padding-right: 0;
+    text-align: right;
   }
 
   section.case-whois {

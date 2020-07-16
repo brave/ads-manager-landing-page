@@ -17,12 +17,33 @@ section#case-splash .BraveAdsPerformanceBox p.stat-value {
   z-index: 0;
 }
 
+.BraveAdsPerformanceBox {
+  padding-bottom: 0rem;
+}
+
 .BraveAdsPerformanceBox:nth-child(1) {
   margin-bottom: 2rem;
+}
+
+.BraveAdsPerformanceBox:nth-child(2) {
+  box-shadow: 0px -10px 20px 4px rgba(223, 223, 223, 0.35);
 }
 
 @media (max-width: 1010px) {
   #splash-img {
     right: 3%;
+  }
+}
+
+@media (max-width: 624px) {
+  #splash-img {
+    left: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  section#case-splash .BraveAdsPerformanceBox p.stat-value{
+    font-size: 1.75rem;
+    line-height: 2rem;
   }
 }
