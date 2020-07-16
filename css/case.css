@@ -124,6 +124,12 @@ section.case-content .case-description p {
   font-weight: 500;
 }
 
+.BraveAdsPerformanceBox h3 {
+  font-weight: 400;
+  color: #696969;
+  margin-bottom: 0;
+}
+
 section#case-splash .BraveAdsPerformanceBox {
   background-color: rgba(0,0,0,.5);
   width: 18rem;
@@ -150,7 +156,7 @@ section#case-splash .BraveAdsPerformanceBox li img {
 
 .BraveAdsPerformanceBox  ul {
   padding: 0;
-  margin-top: 2.75rem;
+  margin-top: 2rem;
 }
 
 .BraveAdsPerformanceBox  li img {

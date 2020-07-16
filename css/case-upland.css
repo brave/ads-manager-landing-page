@@ -17,6 +17,10 @@ section#case-splash .BraveAdsPerformanceBox p.stat-value {
   z-index: 0;
 }
 
+.BraveAdsPerformanceBox:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 1010px) {
   #splash-img {
     right: 3%;
