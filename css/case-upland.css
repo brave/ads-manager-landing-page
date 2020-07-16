@@ -41,6 +41,12 @@ section#case-splash .BraveAdsPerformanceBox p.stat-value {
   }
 }
 
+@media (max-width: 425px) {
+  section.case-content .BraveAdsPerformanceBox {
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 400px) {
   section#case-splash .BraveAdsPerformanceBox p.stat-value{
     font-size: 1.75rem;
