@@ -1,0 +1,24 @@
+/* Ad-hoc CSS for Culprit Case Study */
+
+#case-splash {
+  background: url(../images/upland-bg.jpg);
+  background-size: cover;
+}
+
+section#case-splash .BraveAdsPerformanceBox p.stat-value {
+  font-size: 2rem;
+}
+
+#splash-img {
+  position: absolute;
+  height: 650px;
+  right: 20%;
+  top: 0px;
+  z-index: 0;
+}
+
+@media (max-width: 1010px) {
+  #splash-img {
+    right: 3%;
+  }
+}

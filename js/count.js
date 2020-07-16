@@ -13,7 +13,7 @@ var imgs = document.images,
 function forceStat() {
   document.getElementById('count1').innerHTML = '90';
   document.getElementById('count2').innerHTML = '9';
-  document.getElementById('count3').innerHTML = '3';
+  document.getElementById('count3').innerHTML = '65';
 }
 
 function incrementCounter() {
@@ -50,13 +50,6 @@ const step = ts => {
   //setTimeout(() => el.innerHTML = '90', 1800)
 }
 
-// start the animation
-/* window.onload = function () {
-  requestAnimationFrame(step)
-  requestAnimationFrame(step2)
-  requestAnimationFrame(step3)
-} */
-
 let start2 // set on the first step to the timestamp provided
 const el2 = document.getElementById('count2') // get the element
 const final2 = parseInt(el2.textContent, 10) // parse out the final number
@@ -78,7 +71,7 @@ const step2 = ts => {
 let start3 // set on the first step to the timestamp provided
 const el3 = document.getElementById('count3') // get the element
 const final3 = parseInt(el3.textContent, 10) // parse out the final number
-const duration3 = 350 // duration in ms
+const duration3 = 1150 // duration in ms
 const step3 = ts => {
   if (!start3) {
     start3 = ts
