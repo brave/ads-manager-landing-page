@@ -25,7 +25,7 @@ p {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2rem;
   color: #373843;
 }
@@ -548,6 +548,7 @@ footer {
   padding: 1.75rem;
   padding-bottom: 1.5rem;
   font-size: .75rem;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 footer a {

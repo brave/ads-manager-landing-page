@@ -9,6 +9,10 @@ h1 {
   font-weight: 500;
 }
 
+p {
+  color: #3B3E4F;
+}
+
 .site-wrapper {
   max-width: 1440px;
   margin: auto;
@@ -70,14 +74,7 @@ section.case-firstQuote p.quotePerson strong {
 }
 
 section.case-firstQuote {
-  text-align: center;
-}
-
-hr {
-  max-width: 700px;
-  border: 0;
-  height: 1px;
-  background: rgb(225, 225, 225);
+  padding: 1.25rem 2.5rem 2rem 2.5rem;
 }
 
 section.case-content {
@@ -94,6 +91,7 @@ section.case-content {
 
 section.case-content .case-description p {
   line-height: 2rem;
+  color: #3B3E4F;
 }
 
 .BraveAdsPerformanceBox {
@@ -109,11 +107,11 @@ section.case-content .case-description p {
 }
 
 section#case-splash .BraveAdsPerformanceBox {
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.5);
   width: 18rem;
   border-radius: 16px;
   box-shadow: none;
-  padding: .01rem 1.5rem .1rem 1.5rem;
+  padding: .01rem 1rem .1rem 2rem;
   margin-top: 1.75rem;
   font-weight: 500;
 }
@@ -144,6 +142,7 @@ section#case-splash .BraveAdsPerformanceBox li img {
 
 section.case-content h1, h2 {
   display: inline;
+  font-weight: 600;
 }
 
 .BraveAdsPerformanceBox li {
@@ -168,10 +167,10 @@ section.case-secondQuote {
 }
 
 section.case-secondQuote blockquote {
-  max-width: 800px;
+  max-width: 960px;
   margin: auto;
   color: white;
-  padding: 5rem 2rem 8.25rem 2rem;
+  padding: 5rem 2.5rem 8.25rem 2.5rem;
   font-size: 1rem;
   line-height: 2.25rem;
 }
@@ -201,6 +200,14 @@ section.case-whois {
   padding: 3rem 2rem 6rem 2rem;
 }
 
+section.case-whois img {
+  margin-bottom: -.5rem;
+}
+
+section.case-whois h1 {
+  font-weight: 600;
+}
+
 .case-basic-wrapper {
   max-width: 960px;
   margin: auto;
@@ -213,7 +220,7 @@ section.case-whois {
 }
 
 #browsers-lockup {
-  margin-top: -130px;
+  margin-top: -140px;
   margin-bottom: -100px;
 }
 
@@ -309,7 +316,6 @@ section.case-whois {
   section.case-secondQuote blockquote {
     font-size: 1.25rem;
     line-height: 2.25rem;
-    padding-bottom: 3rem;
   }
 }
 
