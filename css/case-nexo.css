@@ -9,5 +9,17 @@
   position: absolute;
   width: 200px;
   top: 70px;
-  right: 20%;
+  right: 23%;
+}
+
+@media (max-width: 800px) {
+  #splash-img {
+    right: 12%;
+  }
+}
+
+@media (max-width: 670px) {
+  #splash-img {
+    opacity: 20%;
+  }
 }

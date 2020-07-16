@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background: #edf0f2;
 }
 
 h1 {
@@ -13,10 +14,23 @@ p {
   color: #3B3E4F;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(229, 229, 229);
+  margin: auto;
+  margin-bottom: 3.5rem;
+  margin-top: 1.5rem;
+  max-width: 840px;
+  width: 87.5%;
+}
+
 .site-wrapper {
   max-width: 1440px;
   margin: auto;
-  box-shadow: 0 0 8px rgba(0,0,0,0.07);
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.02);
+  background: white;
 }
 
 #case-splash {
@@ -91,7 +105,7 @@ section.case-content {
 
 section.case-content .case-description p {
   line-height: 2rem;
-  color: #3B3E4F;
+  color: #606372;
 }
 
 .BraveAdsPerformanceBox {
@@ -193,11 +207,11 @@ section.case-secondQuote blockquote small {
   font-size: 1rem;
   max-width: 70%;
   float: right;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 section.case-whois {
-  padding: 3rem 2rem 6rem 2rem;
+  padding: 3rem 2.5rem 6rem 2.5rem;
 }
 
 section.case-whois img {
@@ -220,8 +234,10 @@ section.case-whois h1 {
 }
 
 #browsers-lockup {
+  margin: auto;
   margin-top: -140px;
   margin-bottom: -100px;
+  max-height: 300px;
 }
 
 /* Responsiveness */
@@ -246,7 +262,6 @@ section.case-whois h1 {
   }
 
   .case-contentWrapper {
-    max-width: 80%;
     padding-left: 2rem;
     padding-right: 2rem;
     margin: auto;
@@ -261,7 +276,11 @@ section.case-whois h1 {
     order: 1;
   }
 
-   .BraveAdsPerformanceBox ul {
+  .BraveAdsPerformanceBox {
+    box-shadow: 0px -10px 20px 4px rgba(223, 223, 223, 0.35);
+  }
+
+  .BraveAdsPerformanceBox ul {
     margin-top: 2rem;
   }
 
@@ -277,6 +296,7 @@ section.case-whois h1 {
 @media (max-width: 425px) {
   section#case-splash .BraveAdsPerformanceBox {
     width: auto;
+    padding: .01rem 1rem .1rem 1.15rem;
   }
 
   section#case-splash .BraveAdsPerformanceBox li .stat-title {
@@ -317,6 +337,16 @@ section.case-whois h1 {
     font-size: 1.25rem;
     line-height: 2.25rem;
   }
+
+  section.case-whois {
+    padding: 3rem 2rem 4rem 2rem;
+  }
+}
+
+@media (max-width: 380px) {
+   #browsers-lockup {
+     margin-bottom: -40px;
+   }
 }
 
 

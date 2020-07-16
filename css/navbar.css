@@ -28,10 +28,6 @@
   font-size: 16px;
 }
 
-.header li a:hover {
-  text-decoration: underline;
-}
-
 .header #logo {
   float: left;
   padding: 20px 20px;
