@@ -1,45 +1,25 @@
 /* Ad-hoc CSS for Culprit Case Study */
 
 #case-splash {
-  background: linear-gradient(135deg, #88c94400 30%, #83bf9d00 100%), url(../images/case-etoro-bg.jpg);
+  background: url(../images/etoro-bg.jpg);
   background-size: cover;
-  background-position: center;
-  background-color: #6232ca;
-}
-
-section.case-content {
-  padding-top: 3rem;
 }
 
 #splash-img {
-  width: 320px;
-  position: relative;
-  bottom: 170px;
-  left: 55%;
-  z-index: 0;
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  right: 23%;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   #splash-img {
-    bottom: 170px;
-    left: 50%;
+    right: 12%;
   }
 }
 
-@media (max-width: 648px) {
-
-  section#case-splash .BraveAdsPerformanceBox {
-    box-shadow: 0px 0px 11px 3px rgba(44, 44, 44, 0.1);
-  }
-
-  #case-splash {
-    background-size: cover;
-    background-position: top center;
-  }
-
+@media (max-width: 670px) {
   #splash-img {
-    left: 35%;
-    bottom: 170px;
+    opacity: 20%;
   }
 }
