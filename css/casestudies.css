@@ -170,6 +170,14 @@
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  display: inline-block;
+}
+
+.card-container img.readmore-arrow {
+  display: inline-block;
+  width: auto;
+  margin-right: .65rem;
+  margin-bottom: -1px;
 }
 
 .card-container img{
