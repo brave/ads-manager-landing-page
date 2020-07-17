@@ -23,7 +23,7 @@ function incrementCounter() {
         requestAnimationFrame(step);
         requestAnimationFrame(step2);
         requestAnimationFrame(step3);
-        setTimeout(forceStat, 10000);
+        setTimeout(forceStat, 8000);
       } 
     }
 }

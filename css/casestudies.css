@@ -107,6 +107,8 @@
   margin: auto;
   margin-bottom: 1.5rem;
   max-width: 420px;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
 }
 
 .case-study-card-top {
@@ -291,6 +293,10 @@
 @media(max-width: 320px){
   #casestudies-splash .sectionTitle p {
     font-size: 1.2rem;
+  }
+
+  #casestudies-splash {
+    height: 520px;
   }
   
   .bigstats {

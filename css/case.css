@@ -305,11 +305,11 @@ section.case-whois h1 {
 @media (max-width: 425px) {
   section#case-splash .BraveAdsPerformanceBox {
     width: auto;
-    padding: .01rem 1rem .1rem 2rem;
+    padding: .01rem 1rem .1rem 1rem;
   }
 
   section#case-splash .BraveAdsPerformanceBox li .stat-title {
-    font-size: .75rem;
+    font-size: 1rem;
   }
 
   section.case-content .case-description { 
@@ -322,11 +322,11 @@ section.case-whois h1 {
   }
 
   section.case-content .BraveAdsPerformanceBox {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   section.case-content .BraveAdsPerformanceBox li .stat-title {
-    font-size: .75rem;
+    font-size: .85rem;
   }
 
   section.case-content .BraveAdsPerformanceBox h2 {
@@ -353,7 +353,7 @@ section.case-whois h1 {
   }
 
   section.case-whois {
-    padding: 3rem 2rem 4rem 2rem;
+    padding: 3rem 2rem 5.5rem 2rem;
   }
 }
 
@@ -361,6 +361,18 @@ section.case-whois h1 {
    #browsers-lockup {
      margin-bottom: -40px;
    }
+}
+
+@media (max-width: 335px) {
+  section.case-content .BraveAdsPerformanceBox li .stat-title {
+    font-size: .75rem;
+  }
+
+  .case-contentWrapper {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: auto;
+  }
 }
 
 
