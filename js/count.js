@@ -13,7 +13,7 @@ var imgs = document.images,
 function forceStat() {
   document.getElementById('count1').innerHTML = '90';
   document.getElementById('count2').innerHTML = '9';
-  document.getElementById('count3').innerHTML = '65';
+  document.getElementById('count3').innerHTML = '63';
 }
 
 function incrementCounter() {

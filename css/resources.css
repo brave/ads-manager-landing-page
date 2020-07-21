@@ -1,0 +1,13 @@
+#casestudies-splash {
+  position: relative;
+  background-image: url('../images/goldengate.jpg');
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 7.5rem;
+  min-height: 200px;
+}
+
+.card-container {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
+}
