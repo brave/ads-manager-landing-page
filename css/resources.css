@@ -1,4 +1,4 @@
-#casestudies-splash {
+#secondary-splash.resources {
   position: relative;
   background-image: url('../images/goldengate.jpg');
   background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 #resources {
-  background: gray;
+  background: #f0f0f0;
   padding-bottom: 2rem;
 }
 
@@ -26,7 +26,6 @@
 
 .resource-asset-card {
   position: relative;
-  min-height: 200px;
   background: white;
   box-shadow: 0px 5px 10px 1px rgba(34, 56, 101, 0.0);
   z-index: 1;
@@ -42,8 +41,11 @@
 
 .resource-asset-card p {
   line-height: 1.75rem;
+  padding-bottom: 2rem;
 }
 
 .resource-asset-card .basicButton.myBtn {
+  bottom: 1.4rem;
+  right: 1.4rem;
   border-radius: 0;
 }

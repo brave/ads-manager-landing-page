@@ -1,6 +1,6 @@
-#casestudies-splash {
+#secondary-splash {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
+  background-image: /*linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%), */
   url('../images/casestudies-stars2.jpg');
   background-size: cover;
   background-position: center;
@@ -8,13 +8,13 @@
   min-height: 460px;
 }
 
-#casestudies-splash .sectionTitle h1 {
+#secondary-splash .sectionTitle h1 {
   font-size: 3rem;
   color: white;
   margin: 0;
 }
 
-#casestudies-splash .sectionTitle p {
+#secondary-splash .sectionTitle p {
   font-size: 1.5rem;
   color: white;
   margin: 0;
@@ -27,7 +27,7 @@
 }
 
 #casestudies {
-  background: linear-gradient(135deg, #cacfd291, transparent);
+  background: #f0f0f0;
   padding-bottom: 2rem;
 }
 
@@ -49,6 +49,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-weight: 500;
+  column-gap: 2rem;
+  padding-bottom: 4.5rem;
 }
 
 .bigstats p {
@@ -99,16 +101,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   max-width: 960px;
-  grid-row-gap: .5rem;
-  grid-column-gap: 1rem;
+  row-gap: .5rem;
+  column-gap: 1rem;
 }
 
 .case-study-card {
   margin: auto;
   margin-bottom: 1.5rem;
   max-width: 420px;
-  border: 1px solid #e8e8e8;
-  border-radius: 6px;
 }
 
 .case-study-card-top {
@@ -228,8 +228,7 @@
     margin-top: 1.5rem;
   }
 
-  #casestudies-splash {
-    height: 585px;
+  #secondary-splash {
     background-position: top;
   }
 }
@@ -240,7 +239,7 @@
       width: auto;
   }
 
-  #casestudies-splash {
+  #secondary-splash {
     background-position: left;
   }
 }
@@ -248,10 +247,10 @@
 @media(max-width: 600px){
   .card-container{
       grid-template-columns: 1fr;
-      grid-column-gap: 2rem;
+      column-gap: 2rem;
   }
 
-  #casestudies-splash .sectionTitle h1 {
+  #secondary-splash .sectionTitle h1 {
     font-size: 2.3rem;
   }
 
@@ -274,11 +273,11 @@
 
 @media(max-width: 375px){
 
-  #casestudies-splash .sectionTitle h1 {
+  #secondary-splash .sectionTitle h1 {
     font-size: 2rem;
   }
 
-  #casestudies-splash .sectionTitle p {
+  #secondary-splash .sectionTitle p {
     font-size: 1.25rem;
   }
 
@@ -291,11 +290,11 @@
 
 
 @media(max-width: 320px){
-  #casestudies-splash .sectionTitle p {
+  #secondary-splash .sectionTitle p {
     font-size: 1.2rem;
   }
 
-  #casestudies-splash {
+  #secondary-splash {
     height: 520px;
   }
   
