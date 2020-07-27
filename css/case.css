@@ -131,7 +131,7 @@ section.case-content .case-description p {
 
 section#case-splash .BraveAdsPerformanceBox {
   background-color: rgba(0,0,0,.5);
-  width: 18rem;
+  max-width: 19rem;
   border-radius: 16px;
   box-shadow: none;
   padding: .01rem 1rem .1rem 2rem;
