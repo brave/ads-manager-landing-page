@@ -56,7 +56,13 @@
   padding: 2.5rem;
 }
 
+.video-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
 .videos iframe {
-  width: 470px;
+  width: 450px;
   height: 260px;
 }

@@ -1,7 +1,7 @@
 #secondary-splash {
   position: relative;
   background-image: /*linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%), */
-  url('../images/casestudies-stars2.jpg');
+  url('../images/casestudies-stars3.jpg');
   background-size: cover;
   background-position: center;
   padding-top: 7.5rem;
@@ -194,8 +194,7 @@
 
 #casestudies-page #testimonialsBG {
   /* background-image: url('../images/oculus.jpg'); */
-  background-image:   linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%),
-  url('../images/casestudies-stars2.jpg');
+  background-image: url('../images/casestudies-stars3.jpg');
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
