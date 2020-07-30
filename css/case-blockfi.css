@@ -10,7 +10,7 @@ section#case-splash .BraveAdsPerformanceBox p.stat-value {
 }
 
 section#case-splash .BraveAdsPerformanceBox {
-  max-width: 25rem;
+  max-width: 25.5rem;
 }
 
 #splash-img {
@@ -30,4 +30,15 @@ section#case-splash .BraveAdsPerformanceBox {
   #splash-img {
     opacity: 20%;
   }
+}
+
+@media (max-width: 375px) {
+  section#case-splash .BraveAdsPerformanceBox p.stat-value {
+    font-size: 1.6rem;
+  }
+
+  section#case-splash .BraveAdsPerformanceBox li .stat-title {
+    font-size: 0.8rem;
+  }
+
 }
