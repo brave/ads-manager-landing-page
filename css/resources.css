@@ -59,10 +59,11 @@
 .video-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  column-gap: 1rem;
 }
 
 .videos iframe {
   width: 450px;
   height: 260px;
+  background: #373737;
 }
