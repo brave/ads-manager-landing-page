@@ -262,10 +262,10 @@ div.androidNotification-text {
 }
 
 #adFormatImages img:hover {
-  transition: 0.1s;
+  /* transition: 0.1s;
   transform: scale(1.015);
   opacity: 0.85;
-  cursor: pointer !important;
+  cursor: pointer !important; */
 }
 
 /* Naming grid-template-area elements */
