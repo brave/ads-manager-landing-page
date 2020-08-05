@@ -8,7 +8,7 @@
 }
 
 #resources {
-  background: #f0f0f0;
+  background: #f7f7f7;
   padding-bottom: 2rem;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .card-container {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat( auto-fit, minmax(390px, 1fr) );
   column-gap: 1.25rem;
   row-gap: 1.25rem;
 }
@@ -27,9 +27,11 @@
 .asset-card {
   position: relative;
   background: white;
-  box-shadow: 0px 5px 10px 1px rgba(34, 56, 101, 0.0);
+  box-shadow: 0px 0px 10px 0px rgba(34, 56, 101, 0.035);
   z-index: 1;
   padding: 2rem;
+  max-width: 400px;
+  margin: auto;
 }
 
 .asset-card h3 {
@@ -58,12 +60,18 @@
 
 .video-gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
+  grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  margin: auto;
 }
 
 .videos iframe {
-  width: 450px;
-  height: 260px;
-  background: #373737;
+  height: 250px;
+  border: none;
+  background: #2b2b2b;
+}
+
+section#boostBusiness {
+  background: #f7f7f7;
 }
