@@ -7,6 +7,10 @@
   min-height: 200px;
 }
 
+.sectionTitle {
+  margin-bottom: 2rem;
+}
+
 #resources {
   background: #f7f7f7;
   padding-bottom: 2rem;
@@ -25,13 +29,10 @@
 }
 
 .asset-card {
-  position: relative;
   background: white;
   box-shadow: 0px 0px 10px 0px rgba(34, 56, 101, 0.035);
   z-index: 1;
   padding: 2rem;
-  max-width: 400px;
-  margin: auto;
 }
 
 .asset-card h3 {
@@ -74,4 +75,19 @@
 
 section#boostBusiness {
   background: #f7f7f7;
+}
+
+@media only screen and (max-width: 520px) { 
+  .videos iframe {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 450px) { 
+  #secondary-splash.resources {
+    padding-bottom: 3rem;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
