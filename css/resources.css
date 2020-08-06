@@ -59,13 +59,14 @@
   max-width: 960px;
   margin: auto;
   padding: 2.5rem;
+  padding-top: 1.5rem
 }
 
 .video-gallery {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
   column-gap: 1.5rem;
-  row-gap: 1.5rem;
+  row-gap: 2rem;
   margin: auto;
 }
 
@@ -73,15 +74,16 @@
   color: #343546;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 1rem;
-  margin-top: .6rem;
+  font-size: 1.1rem;
+  margin-top: .25rem;
   margin-bottom: 0;
 }
 
 .videos iframe {
   height: 250px;
   border: none;
-  background: #2b2b2b;
+  background: black;
+  border-radius: 3px;
 }
 
 .quoteBox img {
