@@ -1,6 +1,7 @@
 #secondary-splash.resources {
   position: relative;
   background-image: url('../images/goldengate.jpg');
+  background-image: url("../images/cubic-bg.jpg");
   background-size: cover;
   background-position: bottom;
   padding-top: 7.5rem;
@@ -12,7 +13,8 @@
 }
 
 #resources {
-  background: #f7f7f7;
+  background: #f3f3f3;
+  background-size: cover;
   padding-bottom: 2rem;
 }
 
@@ -67,10 +69,24 @@
   margin: auto;
 }
 
+.video-gallery > div > p {
+  color: #343546;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: .6rem;
+  margin-bottom: 0;
+}
+
 .videos iframe {
   height: 250px;
   border: none;
   background: #2b2b2b;
+}
+
+.quoteBox img {
+  opacity: 1;
+  filter: grayscale(0);
 }
 
 section#boostBusiness {
