@@ -200,12 +200,6 @@
   background-attachment: fixed;
 }
 
-.brandLogos img {
-  height: 40px;
-  filter: grayscale(0);
-  opacity: 1;
-}
-
 /* Responsivenesss */
 
 @media(max-width: 920px){

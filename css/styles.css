@@ -506,12 +506,19 @@ div.androidNotification-text {
   margin-bottom: .75rem;
 }
 
+.brandLogos img {
+  height: 40px;
+  filter: grayscale(0);
+  opacity: 1;
+}
+
 .testimonialText {
   font-size: 1.1rem;
   line-height: 2rem;
-  color:rgb(120, 121, 138);
+  color: #5b5b5e;
   padding: .5rem 1rem 1rem 1rem;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .testimonialPerson {
