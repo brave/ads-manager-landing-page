@@ -157,83 +157,6 @@
   font-size: 2rem;
 }
 
-.case-study-card-top {
-  margin-bottom: -10px;
-  overflow: none;
-}
-
-.case-study-card-top img {
-  margin: 0;
-  border-radius: 5px 5px 0 0;
-  filter: brightness(105%);
-  box-shadow: 0px 5px 10px 1px rgba(34, 56, 101, 0.07);
-}
-
-.case-study-card-top img:hover {
-  cursor: pointer;
-}
-
-.case-study-card-bottom {
-  /* background: linear-gradient(to right, rgb(113, 45, 153) 0%, rgb(229, 66, 169) 100%); */
-  background: #838399;
-  background: linear-gradient(to right, #9e38d9 30%, rgb(229, 66, 169) 100%);
-  padding-top: .55rem;
-  padding-bottom: .1rem;
-  padding-right: .25rem;
-  text-align: left;
-  box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
-  border-radius: 0 0 5px 5px;
-  text-align: right;
-}
-
-.case-study-card-bottom.coming-soon {
-  background: #b1b1b9;
-}
-
-.case-study-card-bottom.coming-soon:hover {
-  background: #b1b1b9;
-}
-
-.case-study-card-bottom:hover {
-  background: #838399;
-  cursor: pointer;
-}
-
-.case-study-card-bottom p {
-  line-height: auto;
-  margin: 0;
-}
-
-.case-study-card-bottom button {
-  display: none;
-}
-
-.casestudies-readmore {
-  color: white;
-  background: #4b4b59;
-  font-weight: 600;
-  font-size: .8rem;
-  padding: .3rem .4rem .3em .75rem;
-  border: none;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: inline-block;
-}
-
-.card-container img.readmore-arrow {
-  display: inline-block;
-  width: auto;
-  margin-right: .65rem;
-  margin-bottom: -1px;
-}
-
-.case-study-card.empty-slot {
-  border: 4px gray dotted;
-  border-radius: 6px;
-  height: 350px;
-}
-
 #casestudies-page #testimonialsBG {
   background-image: url('../images/casestudies3.jpg');
   background-position: center;
@@ -337,5 +260,16 @@
 @media(max-width: 320px){
   #secondary-splash .sectionTitle p {
     font-size: 1.2rem;
+  }
+
+  #casestudies .case-study-card p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    margin: .5rem 0 .5rem 0;
+  }
+
+  #casestudies .case-study-card h2 {
+    font-size: 1.5rem;
   }
 }
