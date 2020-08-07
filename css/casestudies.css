@@ -235,10 +235,9 @@
 }
 
 #casestudies-page #testimonialsBG {
-  background-image: url('../images/casestudies-stars3.jpg');
+  background-image: url('../images/casestudies3.jpg');
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   height: 300px;
 }
 
