@@ -202,8 +202,8 @@
 
 .brandLogos img {
   height: 40px;
-  filter: grayscale(100);
-  opacity: .35;
+  filter: grayscale(0);
+  opacity: 1;
 }
 
 /* Responsivenesss */

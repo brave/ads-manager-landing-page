@@ -66,11 +66,12 @@
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
   column-gap: 1.5rem;
-  row-gap: 4rem;
+  row-gap: 2rem;
   margin: auto;
 }
 
 .video-gallery > div > p {
+  display: none;
   position: relative;
   color: #343546;
   font-family: 'Poppins', sans-serif;
@@ -102,7 +103,7 @@
 }
 
 #testimonialsBG {
-  height: 300px;
+  height: 280px;
   background-image: url('../images/cubic-bg.jpg');
   background-position: bottom;
 }
@@ -112,7 +113,7 @@
   z-index: 1;
   margin-bottom: 3rem;
   padding-top: 1.25rem;
-  top: 50px;
+  top: 60px;
 }
 
 .quoteBox img {
@@ -126,8 +127,8 @@
 
 @media(max-width: 1004px){ 
   .videos iframe {
-    background: #f7f7f7;
-    /* background: linear-gradient(-45deg, rgb(42, 31, 173) 0%, rgb(169, 27, 120) 100%) 0% 0% / 150% 150%; */
+    background: #000000;
+    background: none;
   }
 }
 
@@ -138,9 +139,6 @@
 }
 
 @media(max-width: 520px){ 
-  .videos iframe {
-    background: none;
-  }
   .videos {
     padding: 2.5rem 1rem 2.5rem 1rem;
   }
