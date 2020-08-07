@@ -116,13 +116,10 @@
   top: 60px;
 }
 
-.quoteBox img {
-  opacity: 1;
-  filter: grayscale(0);
-}
-
 .brandLogos img {
   height: 40px;
+  opacity: 1;
+  filter: grayscale(0);
 }
 
 @media(max-width: 1004px){ 

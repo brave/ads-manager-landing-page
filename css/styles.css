@@ -508,8 +508,8 @@ div.androidNotification-text {
 
 .brandLogos img {
   height: 40px;
-  filter: grayscale(0);
-  opacity: 1;
+  opacity: .5;
+  filter: grayscale(1);
 }
 
 .testimonialText {
