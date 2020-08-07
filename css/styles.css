@@ -315,9 +315,13 @@ div.androidNotification-text {
 #benefits {
   padding: 2.5rem;
   padding-top: 2rem;
-  padding-bottom: 4rem;
   background: #f9f9f9;
   text-align: center;
+}
+
+#benefits .learnMore {
+  color: #373843;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .benefitPoint h2 {
