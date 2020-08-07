@@ -64,26 +64,55 @@
 
 .video-gallery {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
   column-gap: 1.5rem;
-  row-gap: 2rem;
+  row-gap: 4rem;
   margin: auto;
 }
 
 .video-gallery > div > p {
+  position: relative;
   color: #343546;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  margin-top: .25rem;
-  margin-bottom: 0;
+  bottom: -60px;
 }
 
 .videos iframe {
-  height: 250px;
   border: none;
   background: black;
   border-radius: 3px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#testimonialsBG {
+  height: 300px;
+  background-image: url('../images/cubic-bg.jpg');
+  background-position: bottom;
+}
+
+.quoteBox {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3rem;
+  padding-top: 1.25rem;
+  top: 50px;
 }
 
 .quoteBox img {
@@ -91,27 +120,57 @@
   filter: grayscale(0);
 }
 
-section#boostBusiness {
-  background: #f7f7f7;
+.brandLogos img {
+  height: 40px;
 }
 
-@media only screen and (max-width: 1004px){ 
+@media(max-width: 1004px){ 
   .videos iframe {
     background: #f7f7f7;
+    /* background: linear-gradient(-45deg, rgb(42, 31, 173) 0%, rgb(169, 27, 120) 100%) 0% 0% / 150% 150%; */
   }
 }
 
-@media only screen and (max-width: 520px) { 
+@media(max-width: 700px){
+.brandLogos>img:nth-child(4), .brandLogos>img:nth-child(5) {
+    display: inline-block;
+  }
+}
+
+@media(max-width: 520px){ 
   .videos iframe {
-    height: 250px;
+    background: none;
+  }
+  .videos {
+    padding: 2.5rem 1rem 2.5rem 1rem;
+  }
+  .video-gallery > div > p {
+    bottom: -50px;
+    margin-bottom: 1.5rem;
+  }
+  .video-gallery {
+    row-gap: 1.25rem;
   }
 }
 
-@media only screen and (max-width: 450px) { 
+@media(max-width: 450px) { 
   #secondary-splash.resources {
     padding-bottom: 3rem;
   }
   .card-container {
     grid-template-columns: 1fr;
+  }
+
+  .video-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px){
+  #secondary-splash {
+    height: auto;
+  }
+  #resources-wrapper {
+    padding: .1rem 1rem 0 1rem;
   }
 }

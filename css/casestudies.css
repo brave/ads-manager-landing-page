@@ -18,6 +18,7 @@
   font-size: 1.5rem;
   color: white;
   margin: 0;
+  line-height: 2.5rem;
 }
 
 .casestudies-contentWrapper {
@@ -197,6 +198,12 @@
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.brandLogos img {
+  height: 40px;
+  filter: grayscale(100);
+  opacity: .35;
 }
 
 /* Responsivenesss */
