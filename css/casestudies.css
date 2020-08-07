@@ -1,9 +1,8 @@
 #secondary-splash {
   position: relative;
-  background-image: /*linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 45%, rgba(218, 76, 140, .75) 100%), */
-  url('../images/casestudies-stars3.jpg');
+  background-image: url('../images/casestudies3.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   padding-top: 7.5rem;
 }
 
@@ -106,11 +105,14 @@
 .card-container{
   display: grid;
   position: relative;
-  grid-template-columns: repeat( auto-fit, minmax(420px, 1fr));
+  grid-template-columns: 1fr 1fr;
   margin: auto;
   max-width: 960px;
   row-gap: 1.5rem;
   column-gap: 1.5rem;
+}
+
+#casestudies .card-container {
   margin-top: -5.5rem;
 }
 
@@ -234,7 +236,7 @@
 
 #casestudies-page #testimonialsBG {
   background-image: url('../images/casestudies-stars3.jpg');
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 300px;
@@ -285,7 +287,7 @@
 
 @media(max-width: 800px){
   .card-container{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       width: auto;
   }
 

@@ -1,6 +1,5 @@
 #secondary-splash.resources {
   position: relative;
-  background-image: url('../images/goldengate.jpg');
   background-image: url("../images/cubic-bg.jpg");
   background-size: cover;
   background-position: bottom;
