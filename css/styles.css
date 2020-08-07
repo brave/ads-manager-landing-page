@@ -404,6 +404,7 @@ div.androidNotification-text {
   margin: auto;
   padding: 1.5rem;
   text-align: center;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 #boostBusiness h1 {
