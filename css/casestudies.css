@@ -262,6 +262,10 @@
     font-size: 1.2rem;
   }
 
+  #casestudies .case-study-card {
+    padding: 1.75rem;
+  }
+
   #casestudies .case-study-card p {
     font-size: 1rem;
     font-weight: 300;
@@ -270,6 +274,11 @@
   }
 
   #casestudies .case-study-card h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+  }
+
+  #casestudies-wrapper {
+    margin: auto;
+    padding: .1rem 1rem 0 1rem;
   }
 }
