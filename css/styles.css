@@ -1,7 +1,7 @@
 /* Global */
 
 :root {
-  --nav-bar-height: 50px;
+  --nav-bar-height: 70px;
   /* --brave-orange: #fb542b; */
   --brave-orange: #fe5025;
 }
@@ -25,7 +25,7 @@ p {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2rem;
   color: #373843;
 }
@@ -35,6 +35,10 @@ h2 {
   font-weight: 600;
   font-size: 1.35rem;
   color: #373843;
+}
+
+li {
+  list-style: none;
 }
 
 a { 
@@ -156,7 +160,7 @@ h1.sectionTitle {
 #splash {
   position: relative;
   min-height: 500px;
-  background: url("../images/hero-bg.jpg");
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.0) 65%, rgba(218, 76, 140, .325) 100%), url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: bottom;
 }
@@ -311,9 +315,13 @@ div.androidNotification-text {
 #benefits {
   padding: 2.5rem;
   padding-top: 2rem;
-  padding-bottom: 4rem;
   background: #f9f9f9;
   text-align: center;
+}
+
+#benefits .learnMore {
+  color: #373843;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .benefitPoint h2 {
@@ -351,19 +359,6 @@ div.androidNotification-text {
 #empoweredPoint {
   width: 36px;
   margin-right: 0.3rem;
-}
-
-/* #promoVideo {
-  margin-top: -4rem;
-} */
-
-.informationAssets {
-  display: grid;
-  grid-template-columns: auto; /* switch to 3 when other assets available */
-  grid-column-gap: 1.25rem;
-  justify-items: center;
-  max-width: 768px;
-  margin: auto;
 }
 
 .informationButton {
@@ -410,9 +405,10 @@ div.androidNotification-text {
 
 /*boostBusiness*/
 #boostBusiness {
-  max-width: 700px;
   margin: auto;
-  padding: 1.5rem
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 #boostBusiness h1 {
@@ -422,18 +418,18 @@ div.androidNotification-text {
 
 #boostBusiness > small /* Min spend notice */ {
   line-height: 1.45rem;
+  margin: auto;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
-  /* color: rgb(241, 106, 68); */
   color: #f47436;
   text-align: left;
   padding: 0 1.25rem 0 1.25rem;
   background: #fff1eb;
-  /* border: 1px solid #ffe9e2; */
   border-radius: 6px;
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  max-width: 700px;
 }
 
 /* Tooltip */
@@ -515,19 +511,26 @@ div.androidNotification-text {
   margin-bottom: .75rem;
 }
 
+.brandLogos img {
+  height: 40px;
+  opacity: .5;
+  filter: grayscale(1);
+}
+
 .testimonialText {
   font-size: 1.1rem;
   line-height: 2rem;
-  color:rgb(120, 121, 138);
+  color: #5b5b5e;
   padding: .5rem 1rem 1rem 1rem;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .testimonialPerson {
   font-size: 1rem;
   text-align: center;
   margin-top: .35rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', -apple-system, sans-serif;
   font-weight: 600;
   color: #373843;
 }
@@ -557,6 +560,7 @@ footer {
   padding: 1.75rem;
   padding-bottom: 1.5rem;
   font-size: .75rem;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 footer a {

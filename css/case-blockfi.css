@@ -1,0 +1,44 @@
+/* Ad-hoc CSS for Culprit Case Study */
+
+#case-splash {
+  background: url(../images/blockfi-bg.jpg);
+  background-size: cover;
+}
+
+section#case-splash .BraveAdsPerformanceBox p.stat-value {
+  font-size: 2rem;
+}
+
+section#case-splash .BraveAdsPerformanceBox {
+  max-width: 25.5rem;
+}
+
+#splash-img {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  right: 23%;
+}
+
+@media (max-width: 800px) {
+  #splash-img {
+    right: 12%;
+  }
+}
+
+@media (max-width: 670px) {
+  #splash-img {
+    opacity: 20%;
+  }
+}
+
+@media (max-width: 375px) {
+  section#case-splash .BraveAdsPerformanceBox p.stat-value {
+    font-size: 1.6rem;
+  }
+
+  section#case-splash .BraveAdsPerformanceBox li .stat-title {
+    font-size: 0.8rem;
+  }
+
+}

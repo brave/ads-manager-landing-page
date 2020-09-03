@@ -150,6 +150,7 @@
 
     #splash h1 {
       font-size: 2rem;
+      margin-top: 3rem;
     }
 
     #splash .contentWrapper > div:nth-child(2) {

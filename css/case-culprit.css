@@ -1,0 +1,20 @@
+/* Ad-hoc CSS for Culprit Case Study */
+
+#case-splash {
+  background: url(../images/culprit-bg.jpg);
+  background-size: cover;
+}
+
+#splash-img {
+  position: absolute;
+  height: 650px;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+@media (max-width: 1010px) {
+  #splash-img {
+    left: 200px;
+  }
+}
