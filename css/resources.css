@@ -1,8 +1,8 @@
 #secondary-splash.resources {
   position: relative;
-  background-image: url("../images/cubic-bg.jpg");
+  background-image: url("../images/cubic-bg7.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   padding-top: 7.5rem;
   min-height: 200px;
 }
@@ -111,8 +111,8 @@
 
 #testimonialsBG {
   height: 280px;
-  background-image: url('../images/cubic-bg.jpg');
-  background-position: bottom;
+  background-image: url('../images/cubic-bg7.jpg');
+  background-position: right bottom;
 }
 
 .quoteBox {
