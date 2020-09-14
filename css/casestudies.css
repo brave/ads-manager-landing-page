@@ -178,6 +178,12 @@
   filter: grayscale(0);
 }
 
+.bigstats small {
+  font-size: .8rem;
+  color: white;
+  margin-top: .5rem;
+}
+
 /* Responsivenesss */
 
 @media(max-width: 920px){
