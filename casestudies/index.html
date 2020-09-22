@@ -204,11 +204,14 @@
   <link rel="stylesheet" href="../css/simpleLightbox.min.css">
   <script src="../js/countUp.umd.js"></script>
   <script>
-    var numAnim = new countUp.CountUp('count1', 90);
+    const options = {
+      duration: 3.7,
+    };
+    var numAnim = new countUp.CountUp('count1', 90, options);
     numAnim.start()
-    var numAnim = new countUp.CountUp('count2', 9);
+    var numAnim = new countUp.CountUp('count2', 9, options);
     numAnim.start()
-    var numAnim = new countUp.CountUp('count3', 63);
+    var numAnim = new countUp.CountUp('count3', 63, options);
     numAnim.start()
   </script>
 </body>
