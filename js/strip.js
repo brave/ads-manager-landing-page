@@ -13,5 +13,4 @@ window.onload = setTimeout(function () {
 //Removes animate.css classes from AndroidNotification to reenable :hover effects
 function removeAnimationAndroidNotification() {
   document.querySelector('.androidNotification').className = "androidNotification";
-  console.log("removeAnimation");
 }
