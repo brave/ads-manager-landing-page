@@ -15,7 +15,7 @@ driftIcon.onclick = loadDriftBot;
 function loadDriftBot() {
   driftIcon.style.display = "none";
   let drift = document.createElement("script");
-  drift.src = "js/driftt-chatbot2.js";
+  drift.src = "js/driftt-chatbot.js";
   document.body.appendChild(drift);
   console.log("Set driftbot as script src.");
   console.log("Trying to click the #drift-widget...");
