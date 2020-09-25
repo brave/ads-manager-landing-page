@@ -19,5 +19,5 @@ function loadDriftBot() {
   document.body.appendChild(drift);
   console.log("Set driftbot as script src.");
   console.log("Trying to click the #drift-widget...");
-  setTimeout(function () { document.getElementById('drift-widget').click; }, 1000);
+  setTimeout(function () { document.getElementById('drift-widget').click; console.log("clicked after 1s")}, 1000);
 }
