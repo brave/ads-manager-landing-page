@@ -15,9 +15,14 @@ driftIcon.onclick = loadDriftBot;
 function loadDriftBot() {
   driftIcon.style.display = "none";
   let drift = document.createElement("script");
-  drift.src = "js/driftt-chatbot.js";
+  drift.src = "js/driftt-chatbot2.js";
   document.body.appendChild(drift);
   console.log("Set driftbot as script src.");
   console.log("Trying to click the #drift-widget...");
-  setTimeout(function () { document.getElementById('drift-widget').click; console.log("clicked after 1s")}, 1000);
+  drift.onload = clickDriftBot;
+}
+
+function clickDriftBot() {
+  document.getElementById('drift-widget').click(); //drift-widget created by Drift's external script
+  console.log("clicked drift bot");
 }
