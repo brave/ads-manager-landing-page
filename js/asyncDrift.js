@@ -23,6 +23,6 @@ function loadDriftBot() {
 }
 
 function clickDriftBot() {
-  document.getElementById('drift-widget').click(); //drift-widget created by Drift's external script
+  document.getElementById('widgetButton').click(); //drift-widget created by Drift's external script
   console.log("clicked drift bot");
 }
