@@ -10,11 +10,12 @@ const driftIconStyles = {
   maxWidth: '375px'
 };
 Object.assign(driftIcon.style, driftIconStyles);
+console.log("Created chatbot icon image.");
 driftIcon.onclick = loadDriftBot;
 function loadDriftBot() {
   driftIcon.style.display = "none";
   let drift = document.createElement("script");
   drift.src = "js/driftt-chatbot.js";
   document.body.appendChild(drift);
-  console.log("Set drift script");
+  console.log("Set driftbot as script src.");
 }
