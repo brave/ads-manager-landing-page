@@ -1,34 +1,18 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 377.669 377.669" style="enable-background:new 0 0 512 512" xml:space="preserve"><g>
-<path xmlns="http://www.w3.org/2000/svg" d="M277.394,0H100.275C44.983,0,0,44.984,0,100.276v177.118c0,55.292,44.983,100.275,100.275,100.275h177.119  c55.292,0,100.275-44.983,100.275-100.275V100.276C377.669,44.984,332.686,0,277.394,0z M291.661,256.306  c9.763,9.763,9.763,25.592,0,35.355c-4.881,4.881-11.28,7.322-17.678,7.322c-6.398,0-12.796-2.44-17.678-7.322l-67.471-67.471  l-67.471,67.471c-4.882,4.881-11.28,7.322-17.678,7.322s-12.796-2.441-17.678-7.322c-9.763-9.763-9.763-25.592,0-35.355  l67.471-67.471l-67.471-67.471c-9.763-9.763-9.763-25.592,0-35.355c9.763-9.763,25.592-9.762,35.355,0l67.471,67.471l67.471-67.471  c9.764-9.763,25.592-9.763,35.355,0c9.763,9.763,9.763,25.592,0,35.355l-67.471,67.471L291.661,256.306z" fill="#8d8d8d" data-original="#000000" style=""/>
-<g xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:svgjs="http://svgjs.com/svgjs"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#8D8D8D;}
+</style>
+<rect x="67.8" y="76.3" class="st0" width="373.6" height="373.6"/>
+<g>
+	<path class="st1" d="M376.1,0H135.9C61,0,0,61,0,135.9v240.1C0,451,61,512,135.9,512h240.1c75,0,135.9-61,135.9-135.9V135.9
+		C512,61,451,0,376.1,0z M395.4,347.5c13.2,13.2,13.2,34.7,0,47.9c-6.6,6.6-15.3,9.9-24,9.9c-8.7,0-17.3-3.3-24-9.9L256,303.9
+		l-91.5,91.5c-6.6,6.6-15.3,9.9-24,9.9c-8.7,0-17.3-3.3-24-9.9c-13.2-13.2-13.2-34.7,0-47.9l91.5-91.5l-91.5-91.5
+		c-13.2-13.2-13.2-34.7,0-47.9s34.7-13.2,47.9,0l91.5,91.5l91.5-91.5c13.2-13.2,34.7-13.2,47.9,0c13.2,13.2,13.2,34.7,0,47.9
+		L303.9,256L395.4,347.5z"/>
 </g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-</g></svg>
+</svg>
