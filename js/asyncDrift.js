@@ -1,3 +1,4 @@
+"use strict";
 let driftIcon = document.createElement("img");
 driftIcon.src = "images/drift-bot-icon.png";
 driftIcon.id = "driftIcon";
