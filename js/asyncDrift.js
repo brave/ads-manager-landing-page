@@ -8,7 +8,7 @@ const driftIconStyles = {
   right: '15px',
   zIndex: '10',
   cursor: 'pointer',
-  maxWidth: '300px'
+  maxWidth: '310px'
 };
 Object.assign(driftIcon.style, driftIconStyles);
 driftIcon.onclick = loadDriftBot;
