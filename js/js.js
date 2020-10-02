@@ -7,11 +7,11 @@ document.body.appendChild(driftIcon);
 const driftIconStyles = {
   position: 'fixed',
   bottom: '20px',
-  right: '15px',
+  right: '30px',
   zIndex: '10',
   cursor: 'pointer',
   maxWidth: '375px',
-  width: '92.5%'
+  width: '90%'
 };
 Object.assign(driftIcon.style, driftIconStyles);
 driftIcon.onclick = loadDriftBot;
@@ -34,7 +34,7 @@ const closeChatStyles = {
   right: '10px',
   zIndex: '10',
   cursor: 'pointer',
-  maxWidth: '10px'
+  maxWidth: '12px'
 };
 Object.assign(closeChat.style, closeChatStyles);
 closeChat.onclick = closePrompt;
