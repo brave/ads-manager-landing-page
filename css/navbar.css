@@ -33,6 +33,11 @@
   padding: 20px 20px;
 }
 
+.header #logo:hover {
+  opacitY: .7;
+  transition: 0.2s;
+}
+
 /* menu */
 
 .header .menu {
