@@ -1,0 +1,22 @@
+.verizon-case-phone {
+  width: 100%;
+}
+
+#case-splash {
+  background: url(../images/case-verizon-splash.jpg);
+  background-size: cover;
+}
+
+#splash-img {
+  position: absolute;
+  height: 650px;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+@media (max-width: 1010px) {
+  #splash-img {
+    left: 200px;
+  }
+}
