@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.BraveAdsPerformanceBox:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
 #case-splash {
   background: url(../images/case-verizon-splash.jpg);
   background-size: cover;
@@ -13,6 +17,10 @@
   right: 0px;
   top: 0px;
   z-index: 0;
+}
+
+.generic-wrapper {
+  padding: .5rem;
 }
 
 .blackcard-table {
