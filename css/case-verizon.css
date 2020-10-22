@@ -34,14 +34,21 @@
   color: white;
 }
 
+.blackcard-table tr {
+  padding-top: 2rem;
+}
+
 .blackcard-table th, td {
   border-bottom: 1px solid #D52B1E;
   margin: 0;
+  vertical-align: top;
+  padding-top: 2rem;
 }
 
 .blackcard-table table li {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: white;
+  margin-top: -1rem;
 }
 
 @media (max-width: 1010px) {
