@@ -3,12 +3,13 @@
 }
 
 .BraveAdsPerformanceBox:nth-child(1) {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #case-splash {
   background: url(../images/case-verizon-splash.jpg);
   background-size: cover;
+  background-position: 50%;
 }
 
 #splash-img {
@@ -46,7 +47,7 @@
   padding-top: 2rem;
 }
 
-.blackcard-table th, td {
+.blackcard-table td {
   border-bottom: 1px solid #D52B1E;
   margin: 0;
   vertical-align: top;
@@ -59,8 +60,31 @@
   margin-top: -1rem;
 }
 
-@media (max-width: 1010px) {
-  #splash-img {
-    left: 200px;
+@media (max-width: 768px) {
+  .verizon-case-phone:nth-of-type(1) {
+    display: none;
+    width: auto;
+}
+}
+
+@media (max-width: 525px) {
+  #verizon-table-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .blackcard-table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blackcard-table td {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 375px) {
+  section#case-splash .BraveAdsPerformanceBox p.stat-value {
+    font-size: 2rem;
   }
 }
