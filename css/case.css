@@ -265,7 +265,7 @@ section.case-whois h1 {
 @media (max-width: 809px) {
   section.case-content {
     grid-template-columns: 1fr;
-    padding: 2.5rem;
+    padding: 2rem;
     padding-top: 1rem;
     margin-top: 0;
   }

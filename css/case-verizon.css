@@ -60,7 +60,7 @@
   margin-top: -1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 808px) {
   .verizon-case-phone:nth-of-type(1) {
     display: none;
     width: auto;
