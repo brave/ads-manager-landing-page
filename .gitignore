@@ -70,3 +70,4 @@ node_modules
 
 # Scripts
 deploy.sh
+deploy-staging.sh
