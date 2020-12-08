@@ -1,0 +1,33 @@
+.sectionTitle {
+  padding-bottom: 10rem;
+}
+
+.gallery {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  max-width: 960px;
+  margin: -8rem auto auto;
+  padding: 4rem;
+  box-shadow: 0px 0px 23.28px 0.72px rgba(0, 0, 0, 0.11);
+}
+
+.card-container {
+  grid-template-columns: repeat( auto-fit, minmax(226px, 1fr) );
+  column-gap: 6rem;
+  row-gap: 6rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.brand-link img {
+  filter: grayscale();
+}
+
+.brand-link:hover img {
+  filter: none;
+}
