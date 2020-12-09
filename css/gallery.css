@@ -25,9 +25,24 @@
 }
 
 .brand-link img {
+  opacity: 0.6;
   filter: grayscale();
+  -webkit-transition: opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
+  transition: opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
+  -o-transition: filter .3s ease-in-out, opacity .3s ease-in-out;
+  transition: filter .3s ease-in-out, opacity .3s ease-in-out;
+  transition: filter .3s ease-in-out, opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
 }
 
 .brand-link:hover img {
+  opacity: 1;
   filter: none;
+}
+
+.perfundo__content {
+  max-height: unset;
+  overflow: unset;
+}
+.perfundo__content img {
+  max-height: 90vh;
 }
