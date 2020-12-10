@@ -18,6 +18,7 @@
   grid-template-columns: repeat( auto-fit, minmax(226px, 1fr) );
   column-gap: 6rem;
   row-gap: 6rem;
+  align-items: center;
 }
 
 .card img {
