@@ -47,3 +47,7 @@
 .perfundo__content img {
   max-height: 90vh;
 }
+.perfundo__control {
+  width: 2rem;
+  height: 2rem;
+}
