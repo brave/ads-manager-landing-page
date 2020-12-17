@@ -1,0 +1,65 @@
+.sectionTitle {
+  padding-bottom: 10rem;
+}
+
+.gallery {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  max-width: 960px;
+  margin: -8rem auto auto;
+  padding: 4rem;
+  box-shadow: 0px 0px 23.28px 0.72px rgba(0, 0, 0, 0.11);
+}
+
+.gallery__instructions {
+  margin: 0 auto 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.card-container {
+  grid-template-columns: repeat( auto-fit, minmax(226px, 1fr) );
+  column-gap: 6rem;
+  row-gap: 6rem;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.brand-link img {
+  opacity: 0.6;
+  filter: grayscale();
+  -webkit-transition: opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
+  transition: opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
+  -o-transition: filter .3s ease-in-out, opacity .3s ease-in-out;
+  transition: filter .3s ease-in-out, opacity .3s ease-in-out;
+  transition: filter .3s ease-in-out, opacity .3s ease-in-out, -webkit-filter .3s ease-in-out;
+}
+
+.brand-link:hover img {
+  opacity: 1;
+  filter: none;
+}
+
+.perfundo__content {
+  max-height: unset;
+  overflow: unset;
+}
+.perfundo__content img {
+  max-height: 90vh;
+}
+.perfundo__control {
+  width: 2rem;
+  height: 2rem;
+}

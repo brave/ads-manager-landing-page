@@ -70,3 +70,7 @@ node_modules
 
 # Scripts
 deploy.sh
+deploy-staging.sh
+
+# Misc.
+scratch.html

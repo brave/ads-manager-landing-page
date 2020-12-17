@@ -89,6 +89,8 @@ document.body.onclick= function(e){
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  } else if (event.target.classList.contains("perfundo__overlay")) {
+    location.href = "#";
   }
 }
 
@@ -96,3 +98,5 @@ window.onclick = function(event) {
 document.querySelectorAll('.startNowLink').forEach(function (a) {
   a.removeAttribute('href');
 });
+
+// Allow clicking outside the modal to close
