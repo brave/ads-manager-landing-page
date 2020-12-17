@@ -1,4 +1,4 @@
-.sectionTitle {
+#secondary-splash{ 
   padding-bottom: 10rem;
 }
 
@@ -6,8 +6,7 @@
   position: relative;
   z-index: 1;
   background: #ffffff;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-radius: 3px;
   max-width: 960px;
   margin: -8rem auto auto;
   padding: 4rem;
@@ -34,7 +33,7 @@
 }
 
 .card img {
-  width: 100%;
+  width: 90%;
 }
 
 .brand-link img {
