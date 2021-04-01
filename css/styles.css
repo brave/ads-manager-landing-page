@@ -109,12 +109,19 @@ h1.sectionTitle {
   border: none;
 }
 
+.basicButton[target="_blank"] svg {
+  position: relative;
+  height: 25%;
+  transform: translate(25%, -25%);
+}
+
 .basicButton:hover {
   color: var(--brave-orange);
   background: none;
   border-radius: 30px;
   box-shadow: inset 0 0 0 2pt var(--brave-orange);
   transition: 0.125s;
+  text-decoration: none;
 }
 
 .basicButtonInverse {
